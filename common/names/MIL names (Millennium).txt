@@ -1,0 +1,16 @@
+MIL = {
+	male = {
+		names = { Haruto Ren Souta Yuto Riku }
+	}
+	female = {
+		names = { 
+			Aiko Akari Ami Asuka Ayaka Ayane Ayumi Chihiro Chinatsu Emiko Erika Fumika Haruka Haruna Hikari Hikaru Hina Hinata Honoka Kanon Karin Kasumi Kayo Kiko Kira Koharu Kotone Kyoko Madoka Mai Maki Mana Mao Mari Marina Mariko Mayu Megumi Mika Miki Mio Misaki Nanami Naomi Natsuki Nozomi Reina Rika Riko Rin Rina Saki Sakura Yui Yuka Yuki Yuna
+			 }
+	}
+	surnames = {
+		Yamada
+	}
+	callsigns = {
+		Abi-Eshuh Ditana Saduqa Apilsin Hammurabi Iluna Muballit Abum Sumu Zababa Shuma Iddin
+	}
+}

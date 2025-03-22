@@ -1,0 +1,140 @@
+﻿capital = 15
+set_research_slots = 3
+set_convoys = 60
+set_stability = 0.35
+set_war_support = 0.25	
+
+FRA = {
+	set_autonomy = {
+		target = MIL
+		autonomy_state = autonomous_puppet
+	}
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 3
+	radical_socialist = 6
+	syndicalist = 6
+	social_democrat = 18
+	social_liberal = 8
+	market_liberal = 13
+	social_conservative = 13
+	authoritarian_democrat = 15
+	paternal_autocrat = 17
+	national_populist = 1
+}
+
+### Integration ###
+# ROOT = {
+#	1 = { enable_state_integration_50_compliance = yes } #Corsica
+#	17 = { enable_state_integration_50_compliance = yes } #Pas-de-Calais
+#	28 = { enable_state_integration_50_compliance = yes } #Alsace-Lorraine
+#	29 = { enable_state_integration_50_compliance = yes } #Dunkirk
+#	735 = { enable_state_integration_50_compliance = yes } #Savoy
+#	943 = { enable_state_integration_50_compliance = yes } #Upper Savoy
+#	980 = { enable_state_integration_50_compliance = yes } #Lille
+#
+#	8 = { enable_state_integration_80_compliance = yes } #Luxembourg
+#	34 = { enable_state_integration_80_compliance = yes } #Hainaut
+#	741 = { enable_state_integration_80_compliance = yes } #Verviers
+#	760 = { enable_state_integration_80_compliance = yes } #Romandy
+#	948 = { enable_state_integration_80_compliance = yes } #Liège
+#}
+
+### Templates ###
+division_template = {
+	name = "Division de Cavalerie"
+	division_names_group = FREN_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Division d'Infanterie"
+	division_names_group = FREN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	template_counter = 92
+}
+
+recruit_character = MIL_direction_communale_du_millennium
+recruit_character = MIL_seminar
+activate_advisor = MIL_seminar_sic
+recruit_character = MIL_student_union
+recruit_character = MIL_political_department
+recruit_character = MIL_akeboshi_himari
+recruit_character = MIL_shiraishi_utaha
+recruit_character = MIL_hayase_yuuka
+recruit_character = MIL_ushio_noa
+recruit_character = MIL_rio_tsukatsuki
+recruit_character = MIL_mikamo_neru
+recruit_character = MIL_yamada_mirai
+recruit_character = MIL_kurosaki_koyuki
+recruit_character = MIL_hanaoka_yuzu
+recruit_character = MIL_saiba_momoi
+recruit_character = MIL_saiba_midori
+recruit_character = MIL_tendou_aris
+recruit_character = MIL_ichinose_asuna
+recruit_character = MIL_kakudate_karin
+recruit_character = MIL_murokasa_akane
+recruit_character = MIL_asuma_toki
+recruit_character = MIL_kagami_chihiro
+recruit_character = MIL_omagari_hare
+recruit_character = MIL_otose_kotama
+recruit_character = MIL_konuri_maki
+recruit_character = MIL_nekozuka_hibiki
+recruit_character = MIL_toyomi_kotori
+recruit_character = MIL_otohana_sumire
+recruit_character = MIL_nomasa_rei
+recruit_character = MIL_izuimoto_eimi
+
+
+if = {
+	limit = { has_dlc_nsb = yes }
+	create_equipment_variant = {
+		name = "긴급상황 오토마톤"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		design_team = mio:FRA_lorraine_dietrich_organisation
+	}
+}
+
+add_ideas = {
+	KR_student_conscription_idea
+	MIL_great_transition
+}

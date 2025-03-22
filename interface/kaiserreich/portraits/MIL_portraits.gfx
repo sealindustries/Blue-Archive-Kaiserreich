@@ -1,0 +1,280 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_MIL_intro"
+		texturefile = "gfx/introscreen/MIL_intro.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_akeboshi_himari_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_akeboshi_himari.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_akeboshi_himari_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_akeboshi_himari.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_asuma_toki_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_asuma_toki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_asuma_toki_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_asuma_toki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_hanaoka_yuzu_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_hanaoka_yuzu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_hanaoka_yuzu_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_hanaoka_yuzu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_hayase_yuuka_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_hayase_yuuka.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_hayase_yuuka_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_hayase_yuuka.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_ichinose_asuna_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_ichinose_asuna.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_ichinose_asuna_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_ichinose_asuna.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_izuimoto_eimi_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_izuimoto_eimi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_izuimoto_eimi_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_izuimoto_eimi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_kagami_chihiro_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_kagami_chihiro.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_kagami_chihiro_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_kagami_chihiro.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_kakudate_karin_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_kakudate_karin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_kakudate_karin_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_kakudate_karin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_konuri_maki_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_konuri_maki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_konuri_maki_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_konuri_maki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_kurosaki_koyuki_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_kurosaki_koyuki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_kurosaki_koyuki_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_kurosaki_koyuki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_mikamo_neru_army_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_mikamo_neru.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_mikamo_neru_army_large"
+		texturefile = "gfx/leaders/MIL/MIL_mikamo_neru.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_murokasa_akane_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_murokasa_akane.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_murokasa_akane_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_murokasa_akane.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_nekozuka_hibiki_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_nekozuka_hibiki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_nekozuka_hibiki_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_nekozuka_hibiki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_nomasa_rei_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_nomasa_rei.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_nomasa_rei_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_nomasa_rei.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_omagari_hare_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_omagari_hare.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_omagari_hare_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_omagari_hare.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_otohana_sumire_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_otohana_sumire.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_otohana_sumire_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_otohana_sumire.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_otose_kotama_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_otose_kotama.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_otose_kotama_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_otose_kotama.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_political_department_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_political_department.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_political_department_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_political_department.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_rio_tsukatsuki_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_rio_tsukatsuki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_rio_tsukatsuki_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_rio_tsukatsuki.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_saiba_midori_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_saiba_midori.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_saiba_midori_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_saiba_midori.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_saiba_momoi_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_saiba_momoi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_saiba_momoi_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_saiba_momoi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_seminar_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_seminar.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_seminar_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_seminar.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_shiraishi_utaha_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_shiraishi_utaha.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_shiraishi_utaha_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_shiraishi_utaha.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_student_union_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_student_union.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_student_union_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_student_union.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_tendou_aris_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_tendou_aris.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_tendou_aris_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_tendou_aris.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_toyomi_kotori_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_toyomi_kotori.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_toyomi_kotori_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_toyomi_kotori.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_ushio_noa_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_ushio_noa.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_ushio_noa_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_ushio_noa.png"
+	}
+		spriteType = {
+		name = "GFX_portrait_MIL_yamada_mirai_civilian_small"
+		texturefile = "gfx/interface/advisors/MIL/MIL_yamada_mirai.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MIL_yamada_mirai_civilian_large"
+		texturefile = "gfx/leaders/MIL/MIL_yamada_mirai.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_1_small"
+		texturefile = "gfx/interface/advisors/MIL/GFX_Portrait_Millennium_Generic_new_1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_1"
+		texturefile = "gfx/leaders/MIL/GFX_Portrait_Millennium_Generic_new_1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_2_small"
+		texturefile = "gfx/interface/advisors/MIL/GFX_Portrait_Millennium_Generic_new_2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_2"
+		texturefile = "gfx/leaders/MIL/GFX_Portrait_Millennium_Generic_new_2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_3_small"
+		texturefile = "gfx/interface/advisors/MIL/GFX_Portrait_Millennium_Generic_new_3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_3"
+		texturefile = "gfx/leaders/MIL/GFX_Portrait_Millennium_Generic_new_3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_4_small"
+		texturefile = "gfx/interface/advisors/MIL/GFX_Portrait_Millennium_Generic_new_4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_4"
+		texturefile = "gfx/leaders/MIL/GFX_Portrait_Millennium_Generic_new_4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_5_small"
+		texturefile = "gfx/interface/advisors/MIL/GFX_Portrait_Millennium_Generic_new_5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_5"
+		texturefile = "gfx/leaders/MIL/GFX_Portrait_Millennium_Generic_new_5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_6_small"
+		texturefile = "gfx/interface/advisors/MIL/GFX_Portrait_Millennium_Generic_new_6.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Millennium_Generic_new_6"
+		texturefile = "gfx/leaders/MIL/GFX_Portrait_Millennium_Generic_new_6.png"
+	}
+}

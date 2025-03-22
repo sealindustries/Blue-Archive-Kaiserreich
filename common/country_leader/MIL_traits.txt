@@ -1,0 +1,299 @@
+leader_traits = {
+	### Millennium HOS Traits ###
+	MIL_seminar_head_hos = {  #세미나 총재
+		random = no
+		political_power_factor = 0.15
+		stability_factor = 0.10
+	}
+
+	MIL_veritas_chair__hos = {  #베리타스 부장
+		random = no
+		custom_modifier_tooltip = MIL_veritas_chair_tt
+	}
+
+	MIL_chief_meister_hos = { #엔지니어부 부장
+		random = no
+		custom_modifier_tooltip = MIL_chief_meister_tt
+	}
+
+	MIL_cnc_chair_hos = {  #C&C 부장
+		random = no
+		custom_modifier_tooltip = MIL_cnc_chair_tt
+	}
+
+	MIL_calculator_wife_hos = { #냉혹한 계산의 회계
+		random = no
+		sprite = 13
+		stability_factor = 0.10
+		consumer_goods_factor = -0.10
+	}
+
+	MIL_the_silent_archivist_hos = { #말없는 기록자
+		random = no
+		sprite = 13
+		political_power_factor = 0.10
+        war_support_factor = 0.10
+		opinion_gain_monthly_factor = 0.1
+		improve_relations_maintain_cost_factor = -0.1
+	}
+
+	### Millennium Advisor Traits ###
+
+	MIL_calculator_wife = { #냉혹한 계산의 회계
+		random = no
+		sprite = 13
+		stability_factor = 0.10
+		consumer_goods_factor = -0.10
+	}
+
+	MIL_the_silent_archivist = { #말없는 기록자
+		random = no
+		sprite = 13
+		political_power_factor = 0.10
+        war_support_factor = 0.10
+		opinion_gain_monthly_factor = 0.1
+		improve_relations_maintain_cost_factor = -0.1
+	}
+
+	MIL_white_rabbit = { #코드명 백토
+		random = no
+		sprite = 13
+        army_core_defence_factor = 0.10
+		army_core_attack_factor = 0.10
+		political_power_factor = -0.18
+		stability_factor = -0.10
+	}
+
+	MIL_al_1s = { #게임개발부의 용사
+		random = no
+		sprite = 13
+		war_support_factor = 0.20
+		army_attack_factor = 0.05
+		political_power_factor = 0.07
+		stability_factor = -0.20
+	}
+
+	### Millennium Allignment Traits ###
+
+	MIL_seminar_treasurer = { #세미나 회계
+		random = no
+		custom_modifier_tooltip = MIL_seminar_treasurer_tt
+	}
+	
+	MIL_seminar_secretary = { #세미나 서기
+		random = no
+		custom_modifier_tooltip = MIL_seminar_secretary_tt
+	}
+	
+	MIL_seminar_security = { #세미나 보안
+		random = no
+		custom_modifier_tooltip = MIL_seminar_security_tt
+	}
+	
+	MIL_seminar_member_A = { #세미나 추가멤버 1
+		random = no
+		custom_modifier_tooltip = MIL_seminar_member_tt
+	}
+	
+	MIL_seminar_member_B = { #세미나 추가멤버 2
+		random = no
+		custom_modifier_tooltip = MIL_seminar_member_tt
+	}
+	
+	MIL_seminar_adviser_A = { #세미나 고문 1
+		random = no
+		custom_modifier_tooltip = MIL_seminar_adviser_tt
+	}
+	
+	MIL_seminar_adviser_B = { #세미나 고문 2
+		random = no
+		custom_modifier_tooltip = MIL_seminar_adviser_tt
+	}
+	
+	MIL_veritas_chair = {  #베리타스 부장
+		random = no
+		custom_modifier_tooltip = MIL_veritas_chair_tt
+	}
+	
+	MIL_veritas_vice = {  #베리타스 부부장
+		random = no
+		custom_modifier_tooltip = MIL_veritas_vice_tt
+	}
+	
+	MIL_veritas_member_hare = {  #베리타스 부원(하레)
+		random = no
+		custom_modifier_tooltip = MIL_veritas_member_tt
+	}
+	
+	MIL_veritas_member_kotama = {  #베리타스 부원(코타마)
+		random = no
+		custom_modifier_tooltip = MIL_veritas_member_tt
+	}
+	
+	MIL_veritas_member_maki = {  #베리타스 부원(마키)
+		random = no
+		custom_modifier_tooltip = MIL_veritas_member_tt
+	}
+	
+	MIL_veritas_member_A = {  #베리타스 추가부원 1
+		random = no
+		custom_modifier_tooltip = MIL_veritas_member_tt
+	}
+	
+	MIL_veritas_member_B = {  #베리타스 추가부원 2
+		random = no
+		custom_modifier_tooltip = MIL_veritas_member_tt
+	}
+	
+	MIL_veritas_adviser_A = { #베리타스 고문 1
+		random = no
+		custom_modifier_tooltip = MIL_veritas_adviser_tt
+	}
+	
+	MIL_veritas_adviser_B = { #베리타스 고문 2
+		random = no
+		custom_modifier_tooltip = MIL_veritas_adviser_tt
+	}
+	
+	MIL_chief_meister = { #엔지니어부 부장
+		random = no
+		custom_modifier_tooltip = MIL_chief_meister_tt
+	}
+	
+	MIL_meister_hibiki = { #엔지니어부 부원(히비키)
+		random = no
+		custom_modifier_tooltip = MIL_meister_member_tt
+	}
+	
+	MIL_meister_kotori = { #엔지니어부 부원(코토리)
+		random = no
+		custom_modifier_tooltip = MIL_meister_member_tt
+	}
+	
+	MIL_meister_member_A = {  #엔지니어부 추가부원 1
+		random = no
+		custom_modifier_tooltip = MIL_meister_member_tt
+	}
+	
+	MIL_meister_member_B = {  #엔지니어부 추가부원 2
+		random = no
+		custom_modifier_tooltip = MIL_meister_member_tt
+	}
+	
+	MIL_meister_adviser_A = { #엔지니어부 고문 1
+		random = no
+		custom_modifier_tooltip = MIL_meister_adviser_tt
+	}
+	
+	MIL_meister_adviser_B = { #엔지니어부 고문 2
+		random = no
+		custom_modifier_tooltip = MIL_meister_adviser_tt
+	}
+	
+	MIL_gamedev_chair = {  #겜발부 부장
+		random = no
+		custom_modifier_tooltip = MIL_gamedev_chair_tt
+	}
+	
+	MIL_gamedev_member_momoi = {  #겜발부 부원(모모이)
+		random = no
+		custom_modifier_tooltip = MIL_gamedev_member_tt
+	}
+	
+	MIL_gamedev_member_midori = { #겜발부 부원(미도리)
+		random = no
+		custom_modifier_tooltip = MIL_gamedev_member_tt
+	}
+	
+	MIL_gamedev_member_aris = { #겜발부 부원(아리스)
+		random = no
+		custom_modifier_tooltip = MIL_gamedev_member_tt
+	}
+	MIL_gamedev_adviser_A = {  #겜발부 고문 1
+		random = no
+		custom_modifier_tooltip = MIL_gamedev_adviser_tt
+	}
+	
+	MIL_gamedev_adviser_B = {  #겜발부 고문 2
+		random = no
+		custom_modifier_tooltip = MIL_gamedev_adviser_tt
+	}
+
+	MIL_training_chair = {  #트레이닝부 부장
+		random = no
+		custom_modifier_tooltip = MIL_training_chair_tt
+	}
+	
+	MIL_training_member_rei = {  #트레이닝부 부원(레이)
+		random = no
+		custom_modifier_tooltip = MIL_training_member_tt
+	}
+	
+	MIL_training_member_A = {  #트레이닝부 부원 1
+		random = no
+		custom_modifier_tooltip = MIL_training_member_tt
+	}
+	
+	MIL_training_member_B = {  #트레이닝부 부원 2
+		random = no
+		custom_modifier_tooltip = MIL_training_member_tt
+	}
+	
+	MIL_sptf_chair = {  #초현상특무부 부장
+		random = no
+		custom_modifier_tooltip = MIL_sptf_chair_tt
+	}
+	
+	MIL_sptf_member_eimi = {  #초현상특무부 부원(에이미)
+		random = no
+		custom_modifier_tooltip = MIL_sptf_member_tt
+	}
+	
+	MIL_sptf_member_A = {  #초현상특무부 부원 1
+		random = no
+		custom_modifier_tooltip = MIL_sptf_member_tt
+	}
+	
+	MIL_sptf_member_B = {  #초현상특무부 부원 2
+		random = no
+		custom_modifier_tooltip = MIL_sptf_member_tt
+	}
+
+	MIL_cnc_chair = {  #C&C 부장
+		random = no
+		custom_modifier_tooltip = MIL_cnc_chair_tt
+	}
+
+	MIL_cnc_member_asuna = {  #C&C 부원(아스나)
+		random = no
+		custom_modifier_tooltip = MIL_cnc_member_asuna_tt
+	}
+
+	MIL_cnc_member_karin = {  #C&C 부원(카린)
+		random = no
+		custom_modifier_tooltip = MIL_cnc_member_karin_tt
+	}
+
+	MIL_cnc_member_akane = {  #C&C 부원(아카네)
+		random = no
+		custom_modifier_tooltip = MIL_cnc_member_akane_tt
+	}
+
+	MIL_cnc_member_toki = {  #C&C 부원(토키)
+		random = no
+		custom_modifier_tooltip = MIL_cnc_member_toki_tt
+	}
+
+	MIL_pseudo_chair = {  #유사과학부 부장
+
+		random = no
+		custom_modifier_tooltip = MIL_pseudo_chair_tt
+	}
+
+	MIL_pseudo_member = {  #유사과학부 부원
+
+		random = no
+		custom_modifier_tooltip = MIL_pseudo_member_tt
+	}
+}
+

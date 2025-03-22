@@ -1,0 +1,703 @@
+﻿characters = {
+
+### CHARACTERS ORGANIZED IN ORDER OF INTERNAL DOCUMENT OR NAMUWIKI ###
+
+	MIL_direction_communale_du_millennium = {
+		name = MIL_direction_communale_du_millennium
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FRA_conseil_de_defense_federal_civilian_large
+				small = GFX_portrait_MIL_political_department_civilian_small
+			}
+		}
+		country_leader = {
+			ideology = totalist_subtype
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+		}
+	}
+	
+	MIL_rio_tsukatsuki = {
+		name = MIL_rio_tsukatsuki
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_rio_tsukatsuki_civilian_small
+				large = GFX_portrait_MIL_rio_tsukatsuki_civilian_large
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = MIL_rio_tsukatsuki_leader_desc
+			ideology = paternal_autocrat_subtype
+			traits = { MIL_seminar_head_hos MIL_seminar_head }
+		}
+	}
+	
+	MIL_hayase_yuuka = {
+		name = MIL_hayase_yuuka
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_hayase_yuuka_civilian_small
+				large = GFX_portrait_MIL_hayase_yuuka_civilian_large
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = MIL_hayase_yuuka_leader_desc
+			ideology = market_liberal_subtype
+			traits = { MIL_calculator_wife_hos }
+		}
+		corps_commander={
+			desc = MIL_hayase_yuuka_leader_desc
+			traits={ inflexible_strategist }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_hayase_yuuka
+			desc = MIL_hayase_yuuka_leader_desc
+			available = {
+				is_country_leader = no
+			}
+			traits = { MIL_calculator_wife MIL_seminar_treasurer }
+			cost = 100
+		}
+	}
+	
+	MIL_ushio_noa = {
+		name = MIL_ushio_noa
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_ushio_noa_civilian_small
+				large = GFX_portrait_MIL_ushio_noa_civilian_large
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = MIL_ushio_noa_leader_desc
+			ideology = social_conservative_subtype
+			traits = { MIL_the_silent_archivist_hos }
+		}
+		corps_commander = {
+			desc = MIL_ushio_noa_leader_desc
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=-1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_ushio_noa_advisor
+			desc = MIL_ushio_noa_leader_desc
+			available = {
+				is_country_leader = no
+			}
+			traits = { MIL_the_silent_archivist MIL_seminar_secretary }
+			cost = 100
+		}
+	}
+	
+	MIL_kurosaki_koyuki = {
+		name = MIL_kurosaki_koyuki
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_kurosaki_koyuki_civilian_small
+				large = GFX_portrait_MIL_kurosaki_koyuki_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_kurosaki_koyuki_commander_desc
+			traits = { reckless brilliant_strategist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_kurosaki_koyuki_advisor
+			desc = MIL_kurosaki_koyuki_commander_desc
+			traits = { MIL_white_rabbit MIL_seminar_security }
+			cost = 100
+		}
+	}
+	
+	MIL_hanaoka_yuzu = {
+		name = MIL_hanaoka_yuzu
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_hanaoka_yuzu_civilian_small
+				large = GFX_portrait_MIL_hanaoka_yuzu_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_hanaoka_yuzu_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_hanaoka_yuzu_advisor
+			desc = MIL_hanaoka_yuzu_commander_desc
+			traits = { MIL_gamedev_chair }
+			cost = 100
+		}
+	}
+
+	MIL_saiba_momoi = {
+		name = MIL_saiba_momoi
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_saiba_momoi_civilian_small
+				large = GFX_portrait_MIL_saiba_momoi_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_saiba_momoi_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_saiba_momoi_advisor
+			desc = MIL_saiba_momoi_commander_desc
+			traits = { MIL_gamedev_member_momoi }
+			cost = 100
+		}
+	}
+
+	MIL_saiba_midori = {
+		name = MIL_saiba_midori
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_saiba_midori_civilian_small
+				large = GFX_portrait_MIL_saiba_midori_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_saiba_midori_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_saiba_midori_advisor
+			desc = MIL_saiba_midori_commander_desc
+			traits = { MIL_gamedev_member_midori }
+			cost = 100
+		}
+	}
+	
+	MIL_tendou_aris = {
+		name = MIL_tendou_aris
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_tendou_aris_civilian_small
+				large = GFX_portrait_MIL_tendou_aris_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_tendou_aris_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_tendou_aris_advisor
+			desc = MIL_tendou_aris_commander_desc
+			traits = { MIL_al_1s MIL_gamedev_member_aris }
+			cost = 100
+		}
+	}
+
+	MIL_akeboshi_himari = {
+		name = MIL_akeboshi_himari
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_akeboshi_himari_civilian_small
+				large = GFX_portrait_MIL_akeboshi_himari_civilian_large
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = MIL_akeboshi_himari_leader_desc
+			ideology = social_democrat_subtype
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_akeboshi_himari_advisor
+			desc = MIL_akeboshi_himari_leader_desc
+			available = {
+				NOT = { has_government = paternal_autocrat }
+				is_country_leader = no
+			}
+			traits = { MIL_veritas_chair MIL_sptf_chair }
+			cost = 100
+		}
+	}
+
+	MIL_kagami_chihiro = {
+		name = MIL_kagami_chihiro
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_kagami_chihiro_civilian_small
+				large = GFX_portrait_MIL_kagami_chihiro_civilian_large
+			}
+		}
+		gender = female
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_kagami_chihiro_advisor
+			desc = MIL_kagami_chihiro_commander_desc
+			traits = { MIL_veritas_vice }
+			cost = 100
+		}
+	}
+
+	MIL_otose_kotama = {
+		name = MIL_otose_kotama
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_otose_kotama_civilian_small
+				large = GFX_portrait_MIL_otose_kotama_civilian_large
+			}
+		}
+		gender = female
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_otose_kotama_advisor
+			desc = MIL_otose_kotama_commander_desc
+			traits = { MIL_veritas_member_kotama }
+			cost = 100
+		}
+	}
+
+	MIL_omagari_hare = {
+		name = MIL_omagari_hare
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_omagari_hare_civilian_small
+				large = GFX_portrait_MIL_omagari_hare_civilian_large
+			}
+		}
+		gender = female
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_omagari_hare_advisor
+			desc = MIL_omagari_hare_commander_desc
+			traits = { MIL_veritas_member_hare }
+			cost = 100
+		}
+	}
+
+	MIL_konuri_maki = {
+		name = MIL_konuri_maki
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_konuri_maki_civilian_small
+				large = GFX_portrait_MIL_konuri_maki_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_konuri_maki_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_konuri_maki_advisor
+			desc = MIL_konuri_maki_commander_desc
+			traits = { MIL_veritas_member_maki }
+			cost = 100
+		}
+	}
+	
+	MIL_shiraishi_utaha = {
+		name = MIL_shiraishi_utaha
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_shiraishi_utaha_civilian_small
+				large = GFX_portrait_MIL_shiraishi_utaha_civilian_large
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = MIL_shiraishi_utaha_leader_desc
+			ideology = social_liberal_subtype
+			traits = { MIL_chief_meister_hos }
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_shiraishi_utaha_advisor
+			desc = MIL_shiraishi_utaha_commander_desc
+			available = {
+				is_country_leader = no
+			}
+			traits = { MIL_chief_meister }
+			cost = 100
+		}
+	}
+	
+	MIL_nekozuka_hibiki = {
+		name = MIL_nekozuka_hibiki
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_nekozuka_hibiki_civilian_small
+				large = GFX_portrait_MIL_nekozuka_hibiki_civilian_large
+			}
+		}
+		gender = female
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_nekozuka_hibiki_advisor
+			desc = MIL_nekozuka_hibiki_commander_desc
+			traits = { MIL_meister_hibiki }
+			cost = 100
+		}
+	}
+	
+	MIL_toyomi_kotori = {
+		name = MIL_toyomi_kotori
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_toyomi_kotori_civilian_small
+				large = GFX_portrait_MIL_toyomi_kotori_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_toyomi_kotori_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_toyomi_kotori_advisor
+			desc = MIL_toyomi_kotori_commander_desc
+			traits = { MIL_meister_kotori }
+			cost = 100
+		}
+	}
+	
+	MIL_otohana_sumire = {
+		name = MIL_otohana_sumire
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_otohana_sumire_civilian_small
+				large = GFX_portrait_MIL_otohana_sumire_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_otohana_sumire_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_otohana_sumire_advisor
+			desc = MIL_otohana_sumire_commander_desc
+			traits = { MIL_training_chair }
+			cost = 100
+		}
+	}
+	
+	MIL_nomasa_rei = {
+		name = MIL_nomasa_rei
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_nomasa_rei_civilian_small
+				large = GFX_portrait_MIL_nomasa_rei_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_nomasa_rei_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_nomasa_rei_advisor
+			desc = MIL_nomasa_rei_commander_desc
+			traits = { MIL_training_member_rei }
+			cost = 100
+		}
+	}
+	
+	MIL_izuimoto_eimi = {
+		name = MIL_izuimoto_eimi
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_izuimoto_eimi_civilian_small
+				large = GFX_portrait_MIL_izuimoto_eimi_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_izuimoto_eimi_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MIL_izuimoto_eimi_advisor
+			desc = MIL_izuimoto_eimi_commander_desc
+			traits = { MIL_sptf_member_eimi }
+			cost = 100
+		}
+	}
+	
+	MIL_mikamo_neru = {
+		name = MIL_mikamo_neru
+		portraits = {
+			army = {
+				small = GFX_portrait_MIL_mikamo_neru_army_small
+				large = GFX_portrait_MIL_mikamo_neru_army_large
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = MIL_mikamo_neru_leader_desc
+			ideology = authoritarian_democrat_subtype
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MIL_mikamo_neru_advisor
+			available = {
+				is_country_leader = no
+			}
+			traits = { KR_army_chief_offensive_2 MIL_cnc_chair }
+		}
+		field_marshal = {
+			desc = MIL_mikamo_neru_leader_desc
+			traits = { old_guard trait_cautious inflexible_strategist defensive_doctrine war_hero }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	MIL_ichinose_asuna = {
+		name = MIL_ichinose_asuna
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_ichinose_asuna_civilian_small
+				large = GFX_portrait_MIL_ichinose_asuna_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_ichinose_asuna_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MIL_ichinose_asuna_advisor
+			traits = { KR_army_chief_drill_2 MIL_cnc_member_asuna }
+		}
+	}
+	
+	MIL_kakudate_karin = {
+		name = MIL_kakudate_karin
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_kakudate_karin_civilian_small
+				large = GFX_portrait_MIL_kakudate_karin_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_kakudate_karin_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MIL_kakudate_karin_advisor
+			traits = { KR_army_chief_organisational_2 MIL_cnc_member_karin }
+		}
+	}
+
+	MIL_murokasa_akane = {
+		name = MIL_murokasa_akane
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_murokasa_akane_civilian_small
+				large = GFX_portrait_MIL_murokasa_akane_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_murokasa_akane_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MIL_murokasa_akane_advisor
+			traits = { KR_army_chief_morale_2  MIL_cnc_member_akane }
+		}
+	}
+	
+	MIL_asuma_toki = {
+		name = MIL_asuma_toki
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_asuma_toki_civilian_small
+				large = GFX_portrait_MIL_asuma_toki_civilian_large
+			}
+		}
+		gender = female
+		corps_commander = {
+			desc = MIL_asuma_toki_commander_desc
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MIL_asuma_toki_advisor
+			traits = { KR_army_chief_manoeuvre_2 MIL_cnc_member_toki }
+		}
+	}
+
+	MIL_yamada_mirai = {
+		name = MIL_yamada_mirai
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_yamada_mirai_civilian_small
+				large = GFX_portrait_MIL_yamada_mirai_civilian_large
+			}
+		}
+		gender = female
+		country_leader = {
+			desc = MIL_yamada_mirai_leader_desc
+			ideology = national_populist_subtype
+			traits = { MIL_pseudo_chair }
+		}
+	}
+	
+### second_in_command ###
+	MIL_political_department = {
+		name = MIL_political_department
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_political_department_civilian_small
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = MIL_political_department_sic
+			desc = MIL_political_department_leader_desc
+			traits = { KR_socialist_sic }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	MIL_seminar = {
+		name = MIL_seminar
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_seminar_civilian_small
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = MIL_seminar_sic
+			desc = MIL_seminar_leader_desc
+			traits = { KR_silent_workhorse_sic }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	MIL_student_union = {
+		name = MIL_student_union
+		portraits = {
+			civilian = {
+				small = GFX_portrait_MIL_student_union_civilian_small
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = MIL_student_union_sic
+			desc = MIL_student_union_leader_desc
+			traits = { KR_man_of_the_people_sic }
+			cost = 0
+			can_be_fired = no
+		}
+		
+	}
+}
