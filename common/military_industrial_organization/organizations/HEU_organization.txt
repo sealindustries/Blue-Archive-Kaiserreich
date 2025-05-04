@@ -1,0 +1,132 @@
+
+
+HEU_kaiten_organization = {
+	include = generic_mobile_tank_organization
+	icon = GFX_idea_HEU_kaiten_organization
+	
+	allowed = {	
+		original_tag = HEU
+	}
+
+	visible = {
+		HEU = { has_country_flag = HEU_victory_kaitenger }
+	}
+
+	available = {
+
+	}
+
+	initial_trait = {
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+
+		equipment_bonus = {
+			maximum_speed = 0.15
+			armor_value = -0.1
+		}
+	}
+}
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+HEU_cockerill_organization = {
+	name = cockerill
+	include = generic_escort_ship_organization
+	icon = GFX_idea_generic_naval_manufacturer_1
+	allowed = {
+		original_tag = HEU
+	}
+
+	available = {
+		FROM = {
+			controls_state = 6
+		}
+	}
+}
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+HEU_avions_fairey_organization = {
+	name = avions_fairey
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_generic_air_manufacturer_1
+	allowed = {
+		original_tag = HEU
+	}
+
+	available = {
+		FROM = {
+			controls_state = 6
+		}
+	}
+}
+
+HEU_renard_organization = {
+	name = renard
+	include = generic_medium_aircraft_organization
+	icon = GFX_idea_generic_air_manufacturer_2
+	allowed = {
+		original_tag = HEU
+	}
+
+	available = {
+		FROM = {
+			controls_state = 6
+		}
+	}
+}
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+#HEU_fn_herstol_organization = {
+#	name = fn_herstol
+#	include = generic_infantry_equipment_organization
+#	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
+#	allowed = {
+#		original_tag = HEU
+#	}
+#
+#	available = {
+#		FROM = {
+#			controls_state = 6
+#		}
+#	}
+#}
+
+HEU_grand_ducal_gendarmerie_organization = { #룩셈부르크 근위대
+	include = generic_support_equipment_organization
+	icon = GFX_idea_HEU_grand_ducal_gendarmerie_organization
+	allowed = { 
+		original_tag = HEU
+	}
+
+	available = {
+
+	}
+}

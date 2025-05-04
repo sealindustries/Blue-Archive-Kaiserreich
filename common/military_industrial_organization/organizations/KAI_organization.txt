@@ -1,0 +1,108 @@
+kaiser_industry_infantry = { #보병 장비
+	name = KAI_kaiser_industry_infantry
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
+
+	include = generic_infantry_equipment_organization
+
+	allowed = {
+		tag = KAI
+	}
+	available = {
+		KAI = { has_completed_focus = KAI_kaiser_industry }
+	}
+}
+
+kaiser_industry_artillery = { #포
+	name = KAI_kaiser_industry_artillery
+	icon = GFX_idea_generic_artillery_manufacturer_2
+
+	include = generic_artillery_organization
+
+	allowed = {
+		tag = KAI
+	}
+	available = {
+		KAI = { has_completed_focus = KAI_kaiser_industry }
+	}
+}
+
+kaiser_industry_tank = { #전차
+	name = KAI_kaiser_industry_tank
+	icon = GFX_idea_generic_tank_manufacturer_1
+
+	include = generic_tank_organization
+
+	allowed = {
+		tag = KAI
+	}
+	available = {
+		KAI = { has_completed_focus = KAI_kaiser_industry }
+	}
+}
+
+kaiser_industry_support = { #지원 장비
+	name = KAI_kaiser_industry_support
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+
+	include = generic_support_equipment_organization
+
+	allowed = {
+		tag = KAI
+	}
+	available = {
+		KAI = { has_completed_focus = KAI_kaiser_industry }
+	}
+}
+
+kaiser_industry_motorized = { #기계화
+	name = KAI_kaiser_industry_motorized
+	icon = GFX_idea_generic_motorized_equipment_manufacturer_3
+
+	include = generic_motorized_mechanized_organization
+
+	allowed = {
+		tag = KAI
+	}
+	available = {
+		KAI = { has_completed_focus = KAI_kaiser_industry }
+	}
+}
+
+kaiser_industry_aircraft = { #항공기
+	name = KAI_kaiser_industry_aircraft
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	include = generic_general_aircraft_organization
+
+	allowed = {
+		tag = KAI
+	}
+	available = {
+		KAI = { has_completed_focus = KAI_kaiser_industry }
+	}
+}
+
+kaiser_industry_ship = { #함정
+	name = KAI_kaiser_industry_ship
+	icon = GFX_idea_generic_naval_manufacturer_1
+
+	include = generic_task_force_ship_organization
+
+	allowed = {
+		tag = KAI
+	}
+	available = {
+		KAI = { has_completed_focus = KAI_kaiser_industry }
+	}
+}
+
+kaiser_industry_halo = { #키보토스 장비
+	name = KAI_kaiser_industry_halo
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_2
+
+	include = generic_kivotos_infantry_equipment_organization
+
+	allowed = {
+		tag = KAI
+	}
+}

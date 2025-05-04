@@ -1,4 +1,5 @@
-﻿characters = {
+
+characters = {
 
 ### CHARACTERS ORGANIZED IN ORDER OF INTERNAL DOCUMENT OR NAMUWIKI ###
 
@@ -147,17 +148,17 @@
 		corps_commander = {
 			desc = MIL_hanaoka_yuzu_commander_desc
 			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = MIL_hanaoka_yuzu_advisor
 			desc = MIL_hanaoka_yuzu_commander_desc
-			traits = { MIL_gamedev_chair }
+			traits = { MIL_uzqueen MIL_gamedev_chair }
 			cost = 100
 		}
 	}
@@ -173,12 +174,12 @@
 		gender = female
 		corps_commander = {
 			desc = MIL_saiba_momoi_commander_desc
-			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits = { infantry_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
 		}
 		advisor = {
 			slot = political_advisor
@@ -201,11 +202,11 @@
 		corps_commander = {
 			desc = MIL_saiba_midori_commander_desc
 			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
 		}
 		advisor = {
 			slot = political_advisor
@@ -228,11 +229,11 @@
 		corps_commander = {
 			desc = MIL_tendou_aris_commander_desc
 			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			skill = 4
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 3
 		}
 		advisor = {
 			slot = political_advisor
@@ -255,6 +256,7 @@
 		country_leader = {
 			desc = MIL_akeboshi_himari_leader_desc
 			ideology = social_democrat_subtype
+			traits = { MIL_sickly_genius_hos MIL_veritas_chair MIL_sptf_chair }
 		}
 		advisor = {
 			slot = political_advisor
@@ -264,7 +266,7 @@
 				NOT = { has_government = paternal_autocrat }
 				is_country_leader = no
 			}
-			traits = { MIL_veritas_chair MIL_sptf_chair }
+			traits = { MIL_sickly_genius MIL_veritas_chair MIL_sptf_chair }
 			cost = 100
 		}
 	}
@@ -282,7 +284,7 @@
 			slot = political_advisor
 			idea_token = MIL_kagami_chihiro_advisor
 			desc = MIL_kagami_chihiro_commander_desc
-			traits = { MIL_veritas_vice }
+			traits = { MIL_information_security MIL_veritas_vice }
 			cost = 100
 		}
 	}
@@ -301,6 +303,13 @@
 			idea_token = MIL_otose_kotama_advisor
 			desc = MIL_otose_kotama_commander_desc
 			traits = { MIL_veritas_member_kotama }
+			cost = 100
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MIL_otose_kotama_advisor
+			desc = MIL_otose_kotama_commander_desc
+			traits = { KR_MHC_army_radio_intelligence_2 MIL_veritas_member_kotama }
 			cost = 100
 		}
 	}
@@ -335,11 +344,11 @@
 		corps_commander = {
 			desc = MIL_konuri_maki_commander_desc
 			traits = {  }
-			skill = 3
-			attack_skill = 2
+			skill = 2
+			attack_skill = 3
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 		advisor = {
 			slot = political_advisor
@@ -371,7 +380,7 @@
 			available = {
 				is_country_leader = no
 			}
-			traits = { MIL_chief_meister }
+			traits = { KR_war_industrialist MIL_chief_meister }
 			cost = 100
 		}
 	}
@@ -389,7 +398,14 @@
 			slot = political_advisor
 			idea_token = MIL_nekozuka_hibiki_advisor
 			desc = MIL_nekozuka_hibiki_commander_desc
-			traits = { MIL_meister_hibiki }
+			traits = { KR_captain_of_industry MIL_meister_hibiki }
+			cost = 100
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MIL_nekozuka_hibiki_advisor
+			desc = MIL_nekozuka_hibiki_commander_desc
+			traits = { KR_MHC_artillery_1 MIL_meister_hibiki }
 			cost = 100
 		}
 	}
@@ -405,18 +421,27 @@
 		gender = female
 		corps_commander = {
 			desc = MIL_toyomi_kotori_commander_desc
-			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits = { armor_officer panzer_expert }
+			skill=1
+
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = MIL_toyomi_kotori_advisor
 			desc = MIL_toyomi_kotori_commander_desc
-			traits = { MIL_meister_kotori }
+			traits = { MIL_automaton_canary MIL_meister_kotori }
+			cost = 100
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MIL_toyomi_kotori_advisor
+			ledger = army
+			desc = MIL_toyomi_kotori_commander_desc
+			traits = { KR_armour_theorist MIL_meister_kotori }
 			cost = 100
 		}
 	}
@@ -433,17 +458,24 @@
 		corps_commander = {
 			desc = MIL_otohana_sumire_commander_desc
 			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = MIL_otohana_sumire_advisor
 			desc = MIL_otohana_sumire_commander_desc
-			traits = { MIL_training_chair }
+			traits = { MIL_health_trainer MIL_training_chair }
+			cost = 100
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MIL_otohana_sumire_advisor
+			desc = MIL_otohana_sumire_commander_desc
+			traits = { KR_MHC_army_logistics_2 MIL_training_chair }
 			cost = 100
 		}
 	}
@@ -460,17 +492,17 @@
 		corps_commander = {
 			desc = MIL_nomasa_rei_commander_desc
 			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = MIL_nomasa_rei_advisor
 			desc = MIL_nomasa_rei_commander_desc
-			traits = { MIL_training_member_rei }
+			traits = { MIL_clutch_hitter MIL_training_member_rei }
 			cost = 100
 		}
 	}
@@ -484,20 +516,21 @@
 			}
 		}
 		gender = female
-		corps_commander = {
+		navy_leader = {
 			desc = MIL_izuimoto_eimi_commander_desc
-			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
+			legacy_id=-1
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = MIL_izuimoto_eimi_advisor
 			desc = MIL_izuimoto_eimi_commander_desc
-			traits = { MIL_sptf_member_eimi }
+			traits = { MIL_put_trait_here MIL_sptf_member_eimi }
 			cost = 100
 		}
 	}
@@ -525,12 +558,12 @@
 		}
 		field_marshal = {
 			desc = MIL_mikamo_neru_leader_desc
-			traits = { old_guard trait_cautious inflexible_strategist defensive_doctrine war_hero }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 2
+			traits = { career_officer harsh_leader infantry_officer war_hero }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
 		}
 	}
 	
@@ -545,12 +578,12 @@
 		gender = female
 		corps_commander = {
 			desc = MIL_ichinose_asuna_commander_desc
-			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits= { career_officer war_hero reckless }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
 		}
 		advisor = {
 			slot = army_chief
@@ -570,12 +603,12 @@
 		gender = female
 		corps_commander = {
 			desc = MIL_kakudate_karin_commander_desc
-			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits = { cautious career_officer war_hero }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
 		}
 		advisor = {
 			slot = army_chief
@@ -595,12 +628,12 @@
 		gender = female
 		corps_commander = {
 			desc = MIL_murokasa_akane_commander_desc
-			traits = {  }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits = { career_officer engineer_officer engineer fortress_buster war_hero }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
 		}
 		advisor = {
 			slot = army_chief
@@ -620,12 +653,12 @@
 		gender = female
 		corps_commander = {
 			desc = MIL_asuma_toki_commander_desc
-			traits = {  }
+			traits = { trickster commando }
 			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
 		}
 		advisor = {
 			slot = army_chief
@@ -698,6 +731,55 @@
 			cost = 0
 			can_be_fired = no
 		}
-		
 	}
+
+### Council of Theorists
+	MIL_mission_militaire = {
+		name = MIL_mission_militaire
+		portraits = {
+			army = {
+				small = GFX_portrait_CHI_mission_militaire_army_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MIL_mission_militaire_theorist
+			ledger = military
+			traits = { KR_council_of_theorists }
+			cost = 100
+		}
+	}
+
+	MIL_odyssey_maritime_school = {
+		name = MIL_odyssey_maritime_school
+		portraits = {
+			army = {
+				small = GFX_idea_MIL_odyssey_maritime_school
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = MIL_odyssey_maritime_school
+			ledger = military
+			traits = { KR_navy_chief_navy_council }
+			cost = 100
+		}
+	}
+
+	MIL_drone_research_club = {
+		name = MIL_drone_research_club
+		portraits = {
+			army = {
+				small = GFX_idea_generic_airforce
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MIL_drone_research_club
+			ledger = military
+			traits = { KR_air_chief_air_council }
+			cost = 100
+		}
+	}
+
 }

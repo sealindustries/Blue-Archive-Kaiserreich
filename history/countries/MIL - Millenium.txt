@@ -32,41 +32,122 @@ set_popularities = {
 }
 
 ### Integration ###
-# ROOT = {
-#	1 = { enable_state_integration_50_compliance = yes } #Corsica
-#	17 = { enable_state_integration_50_compliance = yes } #Pas-de-Calais
-#	28 = { enable_state_integration_50_compliance = yes } #Alsace-Lorraine
-#	29 = { enable_state_integration_50_compliance = yes } #Dunkirk
-#	735 = { enable_state_integration_50_compliance = yes } #Savoy
-#	943 = { enable_state_integration_50_compliance = yes } #Upper Savoy
-#	980 = { enable_state_integration_50_compliance = yes } #Lille
-#
-#	8 = { enable_state_integration_80_compliance = yes } #Luxembourg
-#	34 = { enable_state_integration_80_compliance = yes } #Hainaut
-#	741 = { enable_state_integration_80_compliance = yes } #Verviers
-#	760 = { enable_state_integration_80_compliance = yes } #Romandy
-#	948 = { enable_state_integration_80_compliance = yes } #Liège
-#}
+ROOT = {
+	17 = { enable_state_integration_50_compliance = yes } #Corsica
+	980 = { enable_state_integration_50_compliance = yes } #Pas-de-Calais
+	24 = { enable_state_integration_50_compliance = yes } #Alsace-Lorraine
+	785 = { enable_state_integration_50_compliance = yes } #Dunkirk
+	18 = { enable_state_integration_50_compliance = yes } #Savoy
+	16 = { enable_state_integration_50_compliance = yes } #Upper Savoy
+	23 = { enable_state_integration_50_compliance = yes } #Lille
+	25 = { enable_state_integration_50_compliance = yes } #Pas-de-Calais
+	26 = { enable_state_integration_50_compliance = yes } #Alsace-Lorraine
+	27 = { enable_state_integration_50_compliance = yes } #Dunkirk
+	20 = { enable_state_integration_50_compliance = yes } #Savoy
+	19 = { enable_state_integration_50_compliance = yes } #Upper Savoy
+	31 = { enable_state_integration_50_compliance = yes } #Lille
+	22 = { enable_state_integration_50_compliance = yes } #Lille
+	32 = { enable_state_integration_50_compliance = yes } #Pas-de-Calais
+	33 = { enable_state_integration_50_compliance = yes } #Pas-de-Calais
+	21 = { enable_state_integration_50_compliance = yes } #Alsace-Lorraine
+	763 = { enable_state_integration_50_compliance = yes } #Dunkirk
+	762 = { enable_state_integration_50_compliance = yes } #Savoy
+	779 = { enable_state_integration_50_compliance = yes } #Upper Savoy
+	984 = { enable_state_integration_50_compliance = yes } #Lille
+	817 = { enable_state_integration_50_compliance = yes } #Lille
+
+	1 = { enable_state_integration_50_compliance = yes } #Corsica
+	17 = { enable_state_integration_50_compliance = yes } #Pas-de-Calais
+	28 = { enable_state_integration_50_compliance = yes } #Alsace-Lorraine
+	29 = { enable_state_integration_50_compliance = yes } #Dunkirk
+	735 = { enable_state_integration_50_compliance = yes } #Savoy
+	943 = { enable_state_integration_50_compliance = yes } #Upper Savoy
+	980 = { enable_state_integration_50_compliance = yes } #Lille
+
+	8 = { enable_state_integration_80_compliance = yes } #Luxembourg
+	34 = { enable_state_integration_80_compliance = yes } #Hainaut
+	741 = { enable_state_integration_80_compliance = yes } #Verviers
+	760 = { enable_state_integration_80_compliance = yes } #Romandy
+	948 = { enable_state_integration_80_compliance = yes } #Liège
+}
+
+### Technologies ###
+set_technology = {
+	kivotos_infantry_weapons = 1
+	kivotos_halo_max_upgrade = 1
+	rocket_artillery = 1
+	armored_car1 = 1
+	infantry_weapons = 1
+	gw_artillery = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	interwar_antiair = 1
+	basic_train = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
 
 ### Templates ###
 division_template = {
-	name = "Division de Cavalerie"
-	division_names_group = FREN_CAV_01
+	name = "Halo Infantry Division"		
+	division_names_group = MIL_HAL_01
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_cap = 18
 	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
+		halo_infantry = { x = 0 y = 0 }
+		halo_infantry = { x = 0 y = 1 }
+		halo_infantry = { x = 0 y = 2 }
+		halo_infantry = { x = 1 y = 0 }
+		halo_infantry = { x = 1 y = 1 }
+		halo_infantry = { x = 1 y = 2 }
+		halo_infantry = { x = 2 y = 0 }
+		halo_infantry = { x = 2 y = 1 }
+		halo_infantry = { x = 2 y = 2 }
 	}
 	support = {
-		military_police = { x = 0 y = 0 }
+		halo_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
 	}
 }
 division_template = {
-	name = "Division d'Infanterie"
-	division_names_group = FREN_INF_01
+	name = "Automated Defence System"		
+	division_names_group = MIL_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -74,11 +155,29 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
-	template_counter = 92
+	support = {
+        engineer = { x = 0 y = 0 }
+		armored_car_recon = { x = 0 y = 1 }
+		rocket_artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Mobile Strike Team" 				# Represents regular mechanized corps (4 existed in 1935-38); 
+	division_names_group = MIL_INF_01
+												# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge 
+													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }		
+		light_armor = { x = 1 y = 1 }		
+		light_armor = { x = 1 y = 2 }		
+		motorized = { x = 2 y = 0 }		
+		motorized = { x = 2 y = 1 }	
+		motorized = { x = 2 y = 2 }		
+		motorized = { x = 2 y = 3 }		
+	}
 }
 
 recruit_character = MIL_direction_communale_du_millennium
@@ -111,8 +210,9 @@ recruit_character = MIL_toyomi_kotori
 recruit_character = MIL_otohana_sumire
 recruit_character = MIL_nomasa_rei
 recruit_character = MIL_izuimoto_eimi
-
-
+recruit_character = MIL_mission_militaire
+recruit_character = MIL_odyssey_maritime_school
+recruit_character = MIL_drone_research_club
 if = {
 	limit = { has_dlc_nsb = yes }
 	create_equipment_variant = {

@@ -1,0 +1,303 @@
+
+# 총기 설계사
+SHA_infantry_equipment_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_Shanhaijing_MIO_rifle
+	allowed = { tag = SHA }
+
+	available = {
+		FROM = { has_completed_focus = SHA_Equipment_Development_Department }
+	}
+
+	add_trait = { 
+		token = SHA_mio_trait_merge_plant_soft_attack
+		name = SHA_mio_trait_No1
+		#icon = GFX_generic_mio_department_icon_facilities
+		icon = GFX_generic_mio_department_icon_infantry_line_efficiency
+		special_trait_background = yes
+
+		position = { x=0 y=0 }
+		
+		visible = {
+			FROM = { original_tag = SHA }
+		}
+
+		available = { #Three FROM blocs to provide two different check marks in the UI
+			FROM = {
+				has_completed_focus = SHA_Mortar_Development_Department
+			}
+		}
+
+		on_complete = {
+
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.07
+		}
+	}
+}
+# 전차 설계사
+SHA_tank_equipment_organization = {
+	include = generic_tank_refurbishment_plant_organization
+	icon = GFX_Shanhaijing_MIO_tank
+	allowed = { tag = SHA }
+
+	available = {
+		FROM = { has_completed_focus = SHA_military_production }
+	}
+
+	add_trait = { 
+		token = SHA_mio_trait_merge_plant_breakthrough
+		name = SHA_mio_trait_No1
+		#icon = GFX_generic_mio_department_icon_facilities
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_at
+		special_trait_background = yes
+
+		position = { x=9 y=1 }
+		
+		visible = {
+			FROM = { original_tag = SHA }
+		}
+
+		available = { #Three FROM blocs to provide two different check marks in the UI
+			FROM = {
+				has_completed_focus = SHA_tank_develop
+			}
+		}
+
+		on_complete = {
+
+		}
+		
+		limit_to_equipment_type = { armor }
+
+		equipment_bonus = {
+			soft_attack = 0.07
+			hard_attack = 0.04
+		}
+	}
+
+	add_trait = { 
+		token = SHA_mio_trait_merge_plant_factory_output
+		name = SHA_mio_trait_No2
+		#icon = GFX_generic_mio_department_icon_facilities
+		icon = GFX_generic_mio_department_icon_tank_general_line_efficiency
+		special_trait_background = yes
+
+		position = { x=9 y=2 }
+		
+		visible = {
+			FROM = { original_tag = SHA }
+		}
+
+		available = { #Three FROM blocs to provide two different check marks in the UI
+			FROM = {
+				has_completed_focus = SHA_military_production
+			}
+		}
+
+		on_complete = {
+
+		}
+		
+		limit_to_equipment_type = { armor }
+
+		production_bonus = {
+			production_capacity_factor = 0.06
+		}
+	}
+}
+# 야포 설계사
+SHA_artillery_equipment_organization = {
+	include = generic_artillery_organization
+	icon = GFX_Shanhaijing_MIO_artill
+	allowed = { tag = SHA }
+
+	available = {
+		FROM = { has_completed_focus = SHA_Mortar_Development_Department }
+	}
+
+	add_trait = { 
+		token = SHA_mio_trait_merge_plant_soft_hard_attack
+		name = SHA_mio_trait_No1
+		#icon = GFX_generic_mio_department_icon_facilities
+		icon = GFX_generic_mio_department_icon_infantry_line_efficiency
+		special_trait_background = yes
+
+		position = { x=4 y=3 }
+		
+		visible = {
+			FROM = { original_tag = SHA }
+		}
+
+		available = { #Three FROM blocs to provide two different check marks in the UI
+			FROM = {
+				has_completed_focus = SHA_Mortar_Development_Department
+			}
+		}
+
+		on_complete = {
+
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.1
+			hard_attack = 0.04
+		}
+	}
+}
+# 국가항공국
+SHA_SNAA_organization = {
+	include = generic_light_aircraft_organization
+	icon = GFX_Shanhaijing_MIO_airforce
+	allowed = { original_TAG = SHA }
+
+	available = {
+		FROM = { has_completed_focus = SHA_National_Aviation_Administration }
+	}
+
+	equipment_type = {
+		mio_cat_eq_all_small_plane
+	}
+
+	initial_trait = {
+		name = AUS_mio_robust_light_aircraft
+
+		equipment_bonus = {
+			reliability = 0.05
+			maximum_speed = 0.05
+			air_attack = 0.05
+		}
+	}
+
+	override_trait = {
+		token = generic_mio_trait_liquid_cooled_engines
+		
+		position = { x=2 y=0 }
+		
+	}
+
+	override_trait = {
+		token = generic_mio_trait_advanced_aerodynamics
+		
+		position = { x=2 y=0 }
+		
+	}
+
+	override_trait = {
+		token = generic_mio_trait_ongoing_developmental_upgrades
+		
+		position = { x=1 y=1 }
+		
+	}
+
+	override_trait = {
+		token = generic_mio_trait_expanded_production_facilities
+		
+		position = { x=1 y=0 }
+		
+	}
+
+	override_trait = {
+		token = generic_mio_trait_fixed_tailwheels
+		
+		position = { x=0 y=1 }
+		
+	}
+
+	override_trait = {
+		token = generic_mio_trait_gun_pods
+		
+		position = { x=3 y=1 }
+		
+	}
+
+	override_trait = {
+		token = generic_mio_trait_maximum_wing_loads
+		
+		position = { x=1 y=1 }
+		
+	}
+
+	override_trait = {
+		token =  generic_mio_trait_heavier_airframe
+		
+		position = { x=-1 y=1 }
+		
+	}
+
+
+	override_trait = {
+		token = generic_mio_trait_removable_wings
+		
+		position = { x=-1 y=2 }
+		relative_position_id = generic_mio_trait_fixed_tailwheels
+
+		mutually_exclusive = { AUS_mio_trait_static_wings } 
+	}
+
+
+	add_trait = { 
+		token = AUS_mio_trait_static_wings
+		name = AUS_mio_trait_static_wings
+		icon = GFX_generic_mio_department_icon_plane_fighter_production
+		special_trait_background = yes
+
+		position = { x=1 y=2 }
+		relative_position_id = generic_mio_trait_fixed_tailwheels
+
+		any_parent = { generic_mio_trait_fixed_tailwheels }
+
+		mutually_exclusive = { generic_mio_trait_removable_wings }
+
+		equipment_bonus = {
+			air_agility = 0.05
+		}
+
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+
+	add_trait = { 
+		token = AUS_mio_trait_weight_optimization
+		name = AUS_mio_trait_weight_optimization
+		icon = GFX_generic_mio_trait_icon_air_agility
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+		relative_position_id = AUS_mio_trait_static_wings
+
+		any_parent = { AUS_mio_trait_static_wings }
+
+
+		equipment_bonus = {
+			air_agility = 0.05
+			air_attack = 0.05
+			maximum_speed = 0.03
+		}
+	}
+
+
+	add_trait = { 
+		token = AUS_mio_trait_structural_integrity
+		name = AUS_mio_trait_structural_integrity
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_removable_wings
+
+		any_parent = { generic_mio_trait_removable_wings }
+
+
+		equipment_bonus = {
+			reliability = 0.1
+			air_defence = 0.1
+		}
+	}
+
+	remove_trait = { generic_mio_trait_maritime_duties generic_mio_trait_fuselage_ordinance_rack }
+
+}

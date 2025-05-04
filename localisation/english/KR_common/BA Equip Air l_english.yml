@@ -1,0 +1,96 @@
+﻿l_english:
+
+#Reorganised painfully by PPsyrius
+
+######################################
+### Country Specific Air Equipment ###
+######################################
+
+#ATTENTION! THIS FILE IS SORTED BY TAG, NOT BY NAME
+
+###
+### MIL - Millennium ###
+###
+
+ MIL_CAS_equipment_1: "Breguet Br.693"
+ MIL_CAS_equipment_1_short: "Br.693"
+ MIL_cv_CAS_equipment_1: "Breguet Br.693"
+ MIL_cv_CAS_equipment_1_short: "Br.693"
+ MIL_CAS_equipment_2: "Potez Po.633"
+ MIL_CAS_equipment_2_short: "Po.633"
+ MIL_cv_CAS_equipment_2: "Potez Po.633"
+ MIL_cv_CAS_equipment_2_short: "Po.633"
+ MIL_CAS_equipment_3: "Loire-Nieuport LN.401"
+ MIL_CAS_equipment_3_short: "LN.401"
+ MIL_cv_CAS_equipment_3: "Loire-Nieuport LN.401"
+ MIL_cv_CAS_equipment_3_short: "LN.401"
+
+ MIL_fighter_equipment_0: "Loire L.46"
+ MIL_fighter_equipment_0_short: "L.46"
+ MIL_cv_fighter_equipment_0: "Loire L.46"
+ MIL_cv_fighter_equipment_0_short: "L.46"
+ MIL_fighter_equipment_1: "Loire L.250"
+ MIL_fighter_equipment_1_short: "L.250"
+ MIL_cv_fighter_equipment_1: "Loire L.250"
+ MIL_cv_fighter_equipment_1_short: "L.250"
+ MIL_fighter_equipment_2: "Morane-Saulnier M.S.450"
+ MIL_fighter_equipment_2_short: "M.S.450"
+ MIL_cv_fighter_equipment_2: "Morane-Saulnier M.S.450"
+ MIL_cv_fighter_equipment_2_short: "M.S.450"
+ MIL_fighter_equipment_3: "Potez Po.230"
+ MIL_fighter_equipment_3_short: "Po.230"
+ MIL_cv_fighter_equipment_3: "Potez Po.230"
+ MIL_cv_fighter_equipment_3_short: "Po.230"
+ MIL_jet_fighter_equipment_1: "Dassault Ouragan"
+ MIL_jet_fighter_equipment_1_short: "Ouragan"
+ MIL_jet_fighter_equipment_2: "Dassault Mystère"
+ MIL_small_plane_airframe_5: "Dassault Mystère"
+ MIL_jet_fighter_equipment_2_short: "Mystère"
+ MIL_small_plane_airframe_5_short: "Mystère"
+
+ MIL_nav_bomber_equipment_1: "Lioré-et-Olivier H.258"
+ MIL_nav_bomber_equipment_1_short: "H.258"
+ MIL_cv_nav_bomber_equipment_1: "Lioré-et-Olivier H.258"
+ MIL_cv_nav_bomber_equipment_1_short: "H.258"
+ MIL_nav_bomber_equipment_2: "Levasseur Pl.108"
+ MIL_nav_bomber_equipment_2_short: "Pl.108"
+ MIL_cv_nav_bomber_equipment_2: "Levasseur Pl.108"
+ MIL_cv_nav_bomber_equipment_2_short: "Pl.108"
+ MIL_nav_bomber_equipment_3: "SNCAO CAO.600"
+ MIL_nav_bomber_equipment_3_short: "CAO.600"
+ MIL_cv_nav_bomber_equipment_3: "SNCAO CAO.600"
+ MIL_cv_nav_bomber_equipment_3_short: "CAO.600"
+
+ MIL_heavy_fighter_equipment_1: "Romano R.110"
+ MIL_heavy_fighter_equipment_1_short: "R.110"
+ MIL_heavy_fighter_equipment_2: "Hanriot H.220"
+ MIL_heavy_fighter_equipment_2_short: "H.220"
+ MIL_heavy_fighter_equipment_3: "Potez Po.670"
+ MIL_heavy_fighter_equipment_3_short: "Po.670"
+
+ MIL_tac_bomber_equipment_0: "Potez Po.540"
+ MIL_tac_bomber_equipment_0_short: "Po.540"
+ MIL_tac_bomber_equipment_1: "Bregeut Br.460"
+ MIL_tac_bomber_equipment_1_short: "Br.460"
+ MIL_tac_bomber_equipment_2: "Lioré-et-Olivier LeO.451"
+ MIL_tac_bomber_equipment_2_short: "LeO.451"
+ MIL_tac_bomber_equipment_3: "Potez Po.720"
+ MIL_tac_bomber_equipment_3_short: "Po.720"
+ MIL_jet_tac_bomber_equipment_1: "SNCAC NC.1073"
+ MIL_jet_tac_bomber_equipment_1_short: "NC.1073"
+ MIL_jet_tac_bomber_equipment_2: "Sud-Est Grognard"
+ MIL_jet_tac_bomber_equipment_2_short: "Grognard"
+
+ MIL_strat_bomber_equipment_1: "Farman F.222"
+ MIL_strat_bomber_equipment_1_short: "F.222"
+ MIL_strat_bomber_equipment_2: "SNCAC NC.223.3"
+ MIL_strat_bomber_equipment_2_short: "NC.223.3"
+ MIL_strat_bomber_equipment_3: "Breguet-Short Brs.302"
+ MIL_strat_bomber_equipment_3_short: "Brs.302"
+ MIL_jet_strat_bomber_equipment_1: "SNCASO SO.4000"
+ MIL_jet_strat_bomber_equipment_1_short: "SO.4000"
+
+ MIL_scout_plane_equipment_1: "Potez Po.542"
+ MIL_scout_plane_equipment_1_short: "Po.542"
+ MIL_scout_plane_equipment_2: "SNCAO CAO.700"
+ MIL_scout_plane_equipment_2_short: "CAO.700"

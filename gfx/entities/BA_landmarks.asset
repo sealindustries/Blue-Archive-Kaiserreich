@@ -1,0 +1,35 @@
+##########################################
+######	    TRM Trinity Chruch      ######
+##########################################
+
+entity = {
+	name = "building_landmark_TRM_trinity_chruch"
+	pdxmesh = "landmark_TRM_trinity_chruch_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.82
+
+}
+
+entity = {
+	name = "building_landmark_HEU_luxemburg_palace"
+	pdxmesh = "landmark_HEU_luxemburg_palace_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 2.3
+
+}
+
+entity = {
+	name = "building_BA_onsen"
+	pdxmesh = "BA_onsen_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 1.5
+}

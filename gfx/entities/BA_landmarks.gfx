@@ -1,0 +1,49 @@
+objectTypes = {
+
+##########################################
+######	    TRM Trinity Chruch      ######
+##########################################
+
+	pdxmesh = {
+		name = "landmark_TRM_trinity_chruch_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_TRM_trinity_chruch.mesh"
+
+		meshsettings = {
+			name = "landmark_TRM_trinity_chruchShape"
+			index = 0
+			texture_diffuse = "TRM_texture.dds"
+			texture_normal = "basic_specular.dds"
+			texture_specular = "TRM_normal.dds"
+			shader = "PdxMeshStandard"
+		}
+	}
+
+	pdxmesh = {
+		name = "landmark_HEU_luxemburg_palace_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_HEU_luxemburg_palace.mesh"
+
+		meshsettings = {
+			name = "landmark_HEU_luxemburg_palaceShape"
+			index = 0
+			texture_diffuse = "HEU_texture.dds"
+			texture_normal = "basic_specular.dds"
+			texture_specular = "basic_normal.dds"
+			shader = "PdxMeshStandard"
+		}
+	}
+
+	pdxmesh = {
+		name = "BA_onsen_mesh"
+		file = "gfx/models/buildings/landmarks/landmark_RED_spa.mesh"
+
+		meshsettings = {
+			name = "landmark_RED_spaShape"
+			index = 0
+			texture_diffuse = "landmark_RED_alpa.dds"
+			texture_normal = "landmark_RED.dds"
+			texture_specular = "landmark_RED_chorok.dds"
+			shader = "PdxMeshStandard"
+		}
+	}
+
+}

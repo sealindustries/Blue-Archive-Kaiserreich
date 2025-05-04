@@ -1,0 +1,289 @@
+﻿MIL_HAL_01 = 
+{
+	name = "C&C Units"
+
+	for_countries = { MIL }
+
+	can_use = { always = yes }
+
+	division_types = { "low_halo_infantry" "halo_infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { }
+
+	fallback_name = "%d. C&C Front Line Troops"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. C&C Capital Defense Unit" }
+		3 = { "%d. C&C Armed Police" }
+		5 = { "%d. C&C Capital Defense Unit" }
+		8 = { "%d. C&C Armed Police" }
+		9 = { "%d. C&C Capital Defense Unit" }
+		11 = { "%d. C&C Armed Police" }
+		13 = { "%d. C&C Police Special Forces" }
+		15 = { "%d. C&C Front Line Troops" }
+		16 = { "%d. C&C Alpha Unit" }
+		17 = { "%d. C&C Alpha Unit" }
+		19 = { "%d. C&C Armed Police" }
+		22 = { "%d. C&C Beta Unit" }
+		24 = { "%d. C&C Front Line Troops" }
+		34 = { "%d. C&C Police Special Forces" }
+		43 = { "%d. C&C Military police" }
+		57 = { "%d. C&C Police Special Forces" }
+		58 = { "%d. C&C Military police" }
+		64 = { "%d. C&C Front Line Troops" }
+		68 = { "%d. C&C Beta Unit" }
+		78 = { "%d. C&C Military police" }
+	}
+}
+MIL_INF_01 = 
+{
+	name = "Automaton Units"
+
+	for_countries = { MIL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { }
+
+	fallback_name = "%d. Automated Defence System Unit"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Capital Defense Unit" }
+		2 = { "%d. Capital Defense Unit" }
+		3 = { "%d. Millennium Tower Defense System" }
+		6 = { "%d. Millennium Tower Defense System" }
+		11 = { "%d. Frontline Shock Force" }
+		18 = { "%d. Fortified infantry division" }
+		21 = { "%d. Frontline Shock Force" }
+		23 = { "%d. Garrison" }
+		34 = { "%d. Fortified infantry division" }
+		40 = { "%d. Garrison" }
+		45 = { "%d. Frontline Defense Unit" }
+		47 = { "%d. Garrison" }
+		50 = { "%d. Frontline Shock Force" }
+		54 = { "%d. Frontline Shock Force" }
+		61 = { "%d. Fortified infantry division" }
+		67 = { "%d. Fortified infantry division" }
+		70= { "%d. Frontline Shock Force" }
+		72 = { "%d. Frontline Shock Force" }
+	}
+}
+MIL_INF_02 = {
+	name = "Infantry Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MIL_GAR_01 }
+
+	fallback_name = "%d. Infantry Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Infantry Division" }
+		2 = { "%d. Infantry Division" }
+		3 = { "%d. Infantry Division" }
+	}
+}
+
+MIL_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MIL_INF_01 }
+
+	fallback_name = "%d. Cavalry Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Cavalry Division" }
+		2 = { "%d. Cavalry Division" }
+		3 = { "%d. Cavalry Division" }
+	}
+}
+
+MIL_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MIL_INF_02 }
+
+	fallback_name = "%d. Motorised Infantry Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Motorised Infantry Division" }
+		2 = { "%d. Motorised Infantry Division" }
+		3 = { "%d. Motorised Infantry Division" }
+	}
+}
+
+MIL_ARM_01 = {
+	name = "Armored Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MIL_CAV_01 }
+
+	fallback_name = "%d. Armored Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Armored Division" }
+		2 = { "%d. Armored Division" }
+		3 = { "%d. Armored Division" }
+	}
+}
+
+MIL_MEC_01 = {
+	name = "Mechanised Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MIL_INF_02 }
+
+	fallback_name = "%d. Mechanised Infantry Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Mechanised Infantry Division" }
+		2 = { "%d. Mechanised Infantry Division" }
+		3 = { "%d. Mechanised Infantry Division" }
+	}
+}
+
+MIL_GAR_01 = {
+	name = "Garrison Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MIL_INF_02 }
+
+	fallback_name = "%d. Homeland Defence Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Homeland Defence Division" }
+		2 = { "%d. Homeland Defence Division" }
+		3 = { "%d. Homeland Defence Division" }
+	}
+}
+
+MIL_MAR_01 = {
+	name = "Marine Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { }
+
+	fallback_name = "%d. Marine Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Marine Division" }
+		2 = { "%d. Marine Division" }
+		3 = { "%d. Marine Division" }
+	}
+}
+
+MIL_MTN_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { }
+
+	fallback_name = "%d. Mountain Infantry Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Mountain Infantry Division" }
+		2 = { "%d. Mountain Infantry Division" }
+		3 = { "%d. Mountain Infantry Division" }
+	}
+}
+
+MIL_PAR_01 = {
+	name = "Airborne Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { }
+
+	fallback_name = "%d. Airborne Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Airborne Division" }
+		2 = { "%d. Airborne Division" }
+		3 = { "%d. Airborne Division" }
+	}
+}
+MIL_MIL_01 = {
+	name = "Militia Divisions"
+
+	for_countries = { MIL }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MIL_INF_02 }
+
+	fallback_name = %d. Militia Division"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Militia Division" }
+		2 = { "%d. Militia Division" }
+		3 = { "%d. Militia Division" }
+	}
+}
+

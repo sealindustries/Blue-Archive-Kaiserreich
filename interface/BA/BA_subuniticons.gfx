@@ -1,0 +1,203 @@
+spriteTypes = {
+	spriteType = { 
+    	name = "GFX_unit_umamusume_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_umamusume_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+    	noOfFrames = 2
+   	}
+   	spriteType = { 
+    	name = "GFX_unit_umamusume_icon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_umamusume_icon.dds" 
+    	noOfFrames = 2
+   	}
+   	spriteType = {
+    	name = "GFX_unit_umamusume_icon_small"
+    	texturefile = "gfx/texticons/unit_umamusume_icon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}
+
+	spriteType = { 
+    	name = "GFX_unit_low_halo_infantry_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_low_halo_infantry_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+    	noOfFrames = 2
+   	}
+   	spriteType = { 
+    	name = "GFX_unit_low_halo_infantry_icon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_low_halo_infantry_icon.dds" 
+    	noOfFrames = 2
+   	}
+   	spriteType = {
+    	name = "GFX_unit_low_halo_infantry_icon_small"
+    	texturefile = "gfx/texticons/unit_low_halo_infantry_icon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}
+
+	spriteType = { 
+    	name = "GFX_unit_halo_militia_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_halo_militia_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+    	noOfFrames = 2
+   	}
+   	spriteType = { 
+    	name = "GFX_unit_halo_militia_icon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_halo_militia_icon.dds" 
+    	noOfFrames = 2
+   	}
+   	spriteType = {
+    	name = "GFX_unit_halo_militia_icon_small"
+    	texturefile = "gfx/texticons/unit_halo_militia_icon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}
+
+	spriteType = { 
+    	name = "GFX_unit_halo_special_forces_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_halo_special_forces_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+    	noOfFrames = 2
+   	}
+   	spriteType = { 
+    	name = "GFX_unit_halo_special_forces_icon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_halo_special_forces_icon.dds" 
+    	noOfFrames = 2
+   	}
+   	spriteType = {
+    	name = "GFX_unit_halo_special_forces_icon_small"
+    	texturefile = "gfx/texticons/unit_halo_special_forces_icon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}
+
+	spriteType = { 
+    	name = "GFX_unit_halo_infantry_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_halo_infantry_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+    	noOfFrames = 2
+   	}
+   	spriteType = { 
+    	name = "GFX_unit_halo_infantry_icon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_halo_infantry_icon.dds" 
+    	noOfFrames = 2
+   	}
+   	spriteType = {
+    	name = "GFX_unit_halo_infantry_icon_small"
+    	texturefile = "gfx/texticons/unit_halo_infantry_icon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}
+
+	spriteType = { 
+    	name = "GFX_unit_decagrammaton_armor_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_decagrammaton_armor_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+    	noOfFrames = 2
+   	}
+   	spriteType = { 
+    	name = "GFX_unit_decagrammaton_armor_icon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_decagrammaton_armor_icon.dds" 
+    	noOfFrames = 2
+   	}
+   	spriteType = {
+    	name = "GFX_unit_decagrammaton_armor_icon_small"
+    	texturefile = "gfx/texticons/unit_decagrammaton_armor_icon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}
+
+	   spriteType = { 
+    	name = "GFX_unit_color_infantry_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_colour_army_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+    	noOfFrames = 2
+   	}
+   	spriteType = { 
+    	name = "GFX_unit_color_infantry_icon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_colour_army_icon.dds" 
+    	noOfFrames = 2
+   	}
+   	spriteType = {
+    	name = "GFX_unit_color_infantry_icon_small"
+    	texturefile = "gfx/texticons/unit_colour_infantry_icon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}
+
+	spriteType = { 
+    	name = "GFX_unit_halo_recon_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_halo_recon_icon.dds"
+     	noOfFrames = 2	
+   	}
+
+   	spriteType = { 
+    	name = "GFX_unit_halo_recon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_halo_infantry_icon.dds" 
+    	noOfFrames = 2
+   	}
+
+   	spriteType = {
+    	name = "GFX_unit_halo_recon_icon_small"
+    	texturefile = "gfx/texticons/unit_support_halo_recon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}	
+
+	spriteType = { 
+    	name = "GFX_unit_kivotos_dron_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_kivotos_dron_recon_icon.dds"
+     	noOfFrames = 2	
+   	}
+
+   	spriteType = {
+    	name = "GFX_unit_kivotos_dron_icon_small"
+		texturefile = "gfx/texticons/unit_support_kivotos_dron_small.dds"
+     	noOfFrames = 2
+   	}	
+	spriteType = { name = "GFX_unit_syemmata_railway_gun_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_syemmata_railway_gun_unit_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_syemmata_railway_gun_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_syemmata_railway_gun_unit_icon.dds" noOfFrames = 2}
+  
+   spriteType = { 
+    	name = "GFX_unit_gei_otomaton_icon_medium"				
+    	textureFile = "gfx/interface/counters/divisions_large/unit_colour_army_icon.dds"  ## Thats the paradox shepe, but you can use any path and file naming you want
+    	noOfFrames = 2
+   	}
+   	spriteType = { 
+    	name = "GFX_unit_gei_otomaton_icon_medium_white"						
+    	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_colour_army_icon.dds" 
+    	noOfFrames = 2
+   	}
+   	spriteType = {
+    	name = "GFX_unit_gei_otomaton_icon_small"
+    	texturefile = "gfx/texticons/unit_colour_infantry_icon_small.dds"
+    	legacy_lazy_load = no
+     	noOfFrames = 2		
+   	}
+
+
+
+
+
+	#
+	#
+	#	헬기관련
+	#
+	#
+	##################################
+	### Large images for DIVISIONS ###
+
+	spriteType = {
+		name = "GFX_unit_reconnaissance_heli_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_kivotos_reconnaissance_helicopter_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_attack_heli_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_attack_heli_icon.dds"
+		noOfFrames = 2
+	}
+
+	
+	####################################################
+	### Small images for DIVISIONS (On-map-counters) ###
+
+	spriteType = {
+		name = "GFX_unit_attack_heli_icon_medium_white"	
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_attack_heli_icon.dds"
+		noOfFrames = 2
+	}
+}

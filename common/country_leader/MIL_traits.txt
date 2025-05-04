@@ -6,6 +6,13 @@ leader_traits = {
 		stability_factor = 0.10
 	}
 
+	MIL_sickly_genius_hos = { #초천재병약미소녀
+		random = no
+		political_power_factor = -0.05
+		research_speed_factor = 0.10
+		drift_defence_factor = -0.20
+	}
+
 	MIL_veritas_chair__hos = {  #베리타스 부장
 		random = no
 		custom_modifier_tooltip = MIL_veritas_chair_tt
@@ -64,13 +71,32 @@ leader_traits = {
 		stability_factor = -0.10
 	}
 
-	MIL_uzqueen = { #캐비넷 속의 여왕
+	MIL_uzqueen = { #캐비넷 안의 여왕
+		sprite = 1
+		random = no
+		experience_gain_air = 0.03
+		equipment_bonus = {
+			small_plane_airframe = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+			medium_plane_fighter_airframe = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+		}
+	}
+
+	MIL_momoi_trait = { #베리타스 부원
 		random = no
 		sprite = 13
-        army_core_defence_factor = 0.10
-		army_core_attack_factor = 0.10
-		political_power_factor = -0.18
-		stability_factor = -0.10
+		research_speed_factor = 0.01
+	}
+
+	MIL_midori_trait = { #베리타스 부원
+		random = no
+		sprite = 13
+		research_speed_factor = 0.01
 	}
 
 	MIL_al_1s = { #게임개발부의 용사
@@ -80,6 +106,78 @@ leader_traits = {
 		army_attack_factor = 0.05
 		political_power_factor = 0.07
 		stability_factor = -0.20
+	}
+
+	MIL_sickly_genius = { #초천재병약미소녀
+		random = no
+		sprite = 13
+		political_power_factor = -0.05
+		research_speed_factor = 0.10
+		drift_defence_factor = -0.20
+	}
+
+	MIL_information_security = { #정보보안의 귀재
+		random = no
+		sprite = 15
+		operative_slot = 2
+		agency_upgrade_time = -0.15
+	}
+
+	MIL_hare_trait = { #베리타스 부원
+		random = no
+		sprite = 13
+		research_speed_factor = 0.01
+		drift_defence_factor = -0.05
+	}
+
+	MIL_kotama_trait = { #베리타스 부원
+		random = no
+		sprite = 13
+		research_speed_factor = 0.01
+		drift_defence_factor = -0.05
+	}
+
+	MIL_maki_trait = { #베리타스 부원
+		random = no
+		sprite = 13
+		research_speed_factor = 0.01
+		drift_defence_factor = -0.05
+	}
+
+	MIL_automaton_canary = { #기갑의 작은 새
+		sprite = 10
+		random = no
+		stability_factor = -0.05
+		army_armor_speed_factor = 0.05
+		equipment_bonus = {
+			armor = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+	}
+
+	MIL_health_trainer = { #헬스 트레이너
+		random = no
+		sprite = 13
+		monthly_population = 0.10
+		war_support_factor = -0.05
+		consumer_goods_factor = -0.05
+		economy_cost_factor = -0.10
+	}
+
+	MIL_clutch_hitter = { #4번 타자
+		random = no
+		sprite = 13
+		random = no
+		stability_factor = 0.15
+	}
+
+	MIL_put_trait_here = { #여기에 특성 입력
+		sprite = 15
+		random = no
+		resistance_target = -0.1
+		resistance_activity = -0.15
 	}
 
 	### Millennium Allignment Traits ###

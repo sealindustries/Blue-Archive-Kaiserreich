@@ -1,0 +1,108 @@
+﻿##### MIL NAME LISTS #####
+### SUBMARINE NAMES ###
+### THEME: RIVERS ###
+MIL_RIVERS_THEME = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { MIL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = ""
+	fallback_name = "Suzanav %d"
+
+	unique = {
+		"Dzoraget" "Aras" "Arpa" "Akhuryan" "Metsamor" "Kasakh" "Pambak" "Debed" "Getik" "Aghstev" "Vorotan" "Tandzut" "Veghi" "Gedar"
+	}
+}
+
+### DESTROYER NAMES###
+### THEME: CITIES ###
+MIL_CITIES_THEME = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { MIL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Eskadrayin Akanakir %d"
+
+	unique = {
+		"Yerevan" "Vanadzor" "Vagharshapat" "Charentsavan" "Abovyan" "Gyumri" "Artik" "Hrazdan" "Batum" "Barana" "Berd" "Ijevan" "Vardenis" "Nerkin Gharanlugh" "Alaverdi"
+	}
+}
+
+### CRUISER NAMES ###
+### THEME: ANCIENT PROVINCES ###
+MIL_PROVINCES_THEME = {
+	name = NAME_THEME_PROVINCES_MIL
+
+	for_countries = { MIL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
+
+	prefix = ""
+	fallback_name = "Hatsanav %d"
+
+	unique = {
+		"Tsopk" "Aljnik" "Turuberan" "Mokk" "Korchayk" "Parskahayk" "Vaspurakan" "Siwnik" "Artsakh" "Paytakaran" "Utik" "Gugark" "Tayk" "Ayrarat"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+### THEME: KINGDOMS ###
+MIL_KINGDOMS_THEME = {
+	name = NAME_THEME_KINGDOMS_MIL
+
+	for_countries = { MIL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = ""
+	fallback_name = "Razmanaw %d"
+
+	unique = {
+		"Hayastan" "Tashir" "Lori" "Gardman" "Parisos" "Khachen" "Urartu" "Commagne" "Cilicia"
+	}
+}
+
+### BATTLESHIP NAMES ###
+### THEME: KINGS ###
+MIL_KINGS_THEME = {
+	name = NAME_THEME_KINGS
+
+	for_countries = { MIL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = ""
+	fallback_name = "Razmanaw %d"
+
+	unique = {
+		"Gagik" "Ashot" "Trdat" "Smbat" "Khosrov" "Bagrat" "Abbas" "Kiurike" "Ruben" "Arshak"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+### THEME: BATTLES ###
+MIL_BATTLES_THEME = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { MIL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Aviakir %d"
+
+	unique = {
+		"Ani" "Mamestia" "Avarayr" "Vardanakert" "Sevan" "Van"
+	}
+}

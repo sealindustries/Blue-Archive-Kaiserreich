@@ -1,0 +1,128 @@
+﻿division_template = {
+	name = "Halo Infantry Division"		
+	division_names_group = MIL_HAL_01
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_cap = 18
+	regiments = {
+		halo_infantry = { x = 0 y = 0 }
+		halo_infantry = { x = 0 y = 1 }
+		halo_infantry = { x = 0 y = 2 }
+		halo_infantry = { x = 1 y = 0 }
+		halo_infantry = { x = 1 y = 1 }
+		halo_infantry = { x = 1 y = 2 }
+		halo_infantry = { x = 2 y = 0 }
+		halo_infantry = { x = 2 y = 1 }
+		halo_infantry = { x = 2 y = 2 }
+	}
+	support = {
+		halo_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Automated Defence System"		
+	division_names_group = MIL_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		armored_car_recon = { x = 0 y = 1 }
+		rocket_artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Mobile Strike Team" 				# Represents regular mechanized corps (4 existed in 1935-38); 
+	division_names_group = MIL_INF_01
+												# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge 
+													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }		
+		light_armor = { x = 1 y = 1 }		
+		light_armor = { x = 1 y = 2 }		
+		motorized = { x = 2 y = 0 }		
+		motorized = { x = 2 y = 1 }	
+		motorized = { x = 2 y = 2 }		
+		motorized = { x = 2 y = 3 }		
+	}
+}
+
+units = {
+	division= {	
+		name = "Cleaning and Clearing"
+		location = 9434
+		division_template = "Halo Infantry Division"
+		start_experience_factor = 0.75
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = kivotos_infantry_equipment_1
+			creator = "MIL"
+		}
+		requested_factories = 5
+		efficiency = 30
+	}
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MIL"
+		}
+		requested_factories = 5
+		efficiency = 30
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MIL"
+		}
+		requested_factories = 3
+		efficiency = 30
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "MIL"
+		}
+		requested_factories = 2
+		efficiency = 30
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "MIL"
+		}
+		requested_factories = 2
+		efficiency = 30
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "MIL" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = "MIL" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+}

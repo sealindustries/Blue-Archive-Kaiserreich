@@ -1,0 +1,32 @@
+﻿l_english:
+
+###
+### Millennium ###
+###
+
+### Land ###
+
+ MIL_EQUIPMENT_VERSION_1: "Mk. 1"
+ MIL_EQUIPMENT_VERSION_2: "Mk. 2"
+ MIL_EQUIPMENT_VERSION_3: "Mk. 3"
+ MIL_EQUIPMENT_VERSION_4: "Mk. 4"
+ MIL_EQUIPMENT_VERSION_5: "Mk. 5"
+ MIL_EQUIPMENT_VERSION_6: "Mk. 6"
+ MIL_EQUIPMENT_VERSION_7: "Mk. 7"
+ MIL_EQUIPMENT_VERSION_8: "Mk. 8"
+ MIL_EQUIPMENT_VERSION_9: "Mk. 9"
+ MIL_EQUIPMENT_VERSION_10: "Mk. 10"
+ MIL_EQUIPMENT_VERSION_11: "Mk. 11"
+ MIL_EQUIPMENT_VERSION_12: "Mk. 12"
+ MIL_EQUIPMENT_VERSION_13: "Mk. 13"
+
+#Infantry Equip
+
+ MIL_infantry_equipment_0: "밀레니엄 조병창 M007 에코 링크"
+ MIL_infantry_equipment_0_short: "M007 에코 링크"
+ MIL_infantry_equipment_1: "밀레니엄 조병창 .55 빅아이"
+ MIL_infantry_equipment_1_short: ".55 빅아이"
+ MIL_infantry_equipment_2: "로직 앤 리즌 MKX-P "
+ MIL_infantry_equipment_2_short: "로직 앤 리즌"
+ MIL_infantry_equipment_3: "밀레니엄 조병창 M27 백도어어"
+ MIL_infantry_equipment_3_short: "M27"

@@ -1,0 +1,672 @@
+technologies = {
+	kivotos_infantry_weapons = {
+		allow = {
+			OR = {
+				has_country_flag = kivotos_research_on
+				has_tech = kivotos_artificial_halo_low
+			}
+        }
+		enable_equipments = {
+			kivotos_infantry_equipment_0
+			kivotos_infantry_equipment_1
+		}
+
+		path = {
+			leads_to_tech = kivotos_halo_upgrade 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = kivotos_halo_max_upgrade 
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = kivotos_infantry_weapons_tt
+			hidden_effect = {
+				set_variable = { ROOT.halo_infantry_cap = 0 } # 사단 제한, 헤일로 보병의 사단 제한과 같아야 함'
+				if = {
+					limit = {
+						has_template = "Halo Infantry Division"
+					}
+					delete_unit_template_and_units = {
+						division_template = "Halo Infantry Division"
+					}
+				}
+					
+				division_template = {
+					name = "Halo Infantry Division"		
+					division_names_group = BA_HAL_01
+					is_locked = yes
+					force_allow_recruiting = yes
+					division_cap = 0
+					regiments = {
+						halo_infantry = { x = 0 y = 0 }
+						halo_infantry = { x = 0 y = 1 }
+						halo_infantry = { x = 0 y = 2 }
+						halo_infantry = { x = 1 y = 0 }
+						halo_infantry = { x = 1 y = 1 }
+						halo_infantry = { x = 1 y = 2 }
+						halo_infantry = { x = 2 y = 0 }
+						halo_infantry = { x = 2 y = 1 }
+						halo_infantry = { x = 2 y = 2 }
+					}
+					support = {
+						halo_recon = { x = 0 y = 0 }
+						engineer = { x = 0 y = 1 }
+						artillery = { x = 0 y = 2 }
+						anti_air = { x = 0 y = 3 }
+					}
+				}
+				set_variable = { BA_halo_infantry_cap_edit_var = 6 }
+				BA_halo_infantry_cap_edit_effect = yes
+			}
+		}
+		
+		
+		ai_will_do = {
+			factor = 2000
+			modifier = {
+				factor = 0
+				is_puppet = yes
+			}
+		}
+		
+		research_cost = 2
+		
+		start_year = 1936
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	kivotos_halo_upgrade  = {
+		halo_infantry = {
+			max_organisation = 5
+			hardness = 0.30
+		}
+
+		path = {
+			leads_to_tech = kivotos_halo_upgrade_1 
+			research_cost_coeff = 1
+		}
+		
+		
+		ai_will_do = {
+			factor = 500
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1936
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 0 y = 3 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	kivotos_halo_upgrade_1  = {
+		halo_infantry = {
+			supply_consumption = 0.1
+			max_organisation = 5
+			hardness = 0.15
+		}
+
+		path = {
+			leads_to_tech = kivotos_halo_heavy_infantry 
+			research_cost_coeff = 1
+		}
+		
+		
+		ai_will_do = {
+			factor = 100
+						
+			modifier = {
+				factor = 1000
+				date > "1938.1.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1939.1.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1940.1.1"
+			}
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1938
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	kivotos_halo_heavy_infantry  = {
+
+		halo_infantry = {
+			supply_consumption = 0.1
+			soft_attack = 0.10
+			hard_attack = 0.10
+			breakthrough = 0.05
+		}
+		
+
+		path = {
+			leads_to_tech = kivotos_halo_special_forces
+			research_cost_coeff = 1
+		}
+		
+		
+		ai_will_do = {
+			factor = 200
+						
+			modifier = {
+				factor = 1000
+				date > "1939.1.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1939.6.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1940.1.1"
+			}
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1939
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 0 y = 9 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	kivotos_halo_special_forces  = {
+		
+		allow = {
+			if = {
+				limit = {
+					original_tag = BLM
+					has_idea = BLM_OUTLAWS
+				}
+				NOT = { has_idea = BLM_OUTLAWS }
+			}
+        }
+		
+		show_effect_as_desc = yes
+
+		halo_infantry = {
+			soft_attack = 0.05
+		}
+		
+		
+		ai_will_do = {
+			factor = 200
+						
+			modifier = {
+				factor = 1000
+				date > "1941.1.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1941.6.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1942.1.1"
+			}
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = kivotos_halo_special_forces_tt
+			hidden_effect = {
+				set_variable = { ROOT.halo_special_forces_cap = 0 } # 사단 제한, 헤일로 특수부대의 사단 제한과 같아야 함'
+				if = {
+					limit = {
+						has_template = "Halo Special Forces"
+					}
+					delete_unit_template_and_units = {
+						division_template = "Halo Special Forces"
+					}
+				}
+					
+				division_template = {
+					name = "Halo Special Forces"		
+					division_names_group = BA_HAL_01
+					is_locked = yes
+					force_allow_recruiting = yes
+					division_cap = 2
+					regiments = {
+						halo_special_forces = { x = 0 y = 0 }
+						halo_special_forces = { x = 0 y = 1 }
+						halo_special_forces = { x = 0 y = 2 }
+						halo_special_forces = { x = 1 y = 0 }
+						halo_special_forces = { x = 1 y = 1 }
+						halo_special_forces = { x = 1 y = 2 }
+						halo_special_forces = { x = 2 y = 0 }
+						halo_special_forces = { x = 2 y = 1 }
+						halo_special_forces = { x = 2 y = 2 }
+					}
+					support = {
+						halo_recon = { x = 0 y = 0 }
+						engineer = { x = 0 y = 1 }
+						artillery = { x = 0 y = 2 }
+						anti_air = { x = 0 y = 3 }
+					}
+				}
+
+				set_variable = { BA_halo_special_forces_cap_edit_var = 2 }
+				BA_halo_special_forces_cap_edit_effect = yes
+			}
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1941
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 0 y = 13 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	kivotos_halo_max_upgrade  = {
+		
+		allow = {
+			if = {
+				limit = {
+					original_tag = BLM
+					has_idea = BLM_OUTLAWS
+				}
+				NOT = { has_idea = BLM_OUTLAWS }
+			}
+        }
+		
+		ai_will_do = {
+			factor = 50
+		}
+
+		path = {
+			leads_to_tech = kivotos_halo_max_upgrade_1 
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = kivotos_halo_max_upgrade_tt
+			hidden_effect = {
+				set_variable = { BA_halo_infantry_cap_edit_var = 6 }
+				BA_halo_infantry_cap_edit_effect = yes
+			}
+		}
+		research_cost = 5
+		
+		start_year = 1936
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = -2 y = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 100
+						
+			modifier = {
+				factor = 500
+				date > "1937.1.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1937.6.1"
+			}
+						
+			modifier = {
+				factor = 2000
+				date > "1938.1.1"
+			}
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+		
+		show_effect_as_desc = yes
+	}
+	kivotos_halo_max_upgrade_1  = {
+		
+		
+		ai_will_do = {
+			factor = 50
+		}
+
+		path = {
+			leads_to_tech = kivotos_halo_light_infantry 
+			research_cost_coeff = 1
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = kivotos_halo_max_upgrade_tt
+			hidden_effect = {
+				set_variable = { BA_halo_infantry_cap_edit_var = 6 }
+				BA_halo_infantry_cap_edit_effect = yes
+			}
+		}
+		research_cost = 5
+		
+		start_year = 1938
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = -2 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 100
+						
+			modifier = {
+				factor = 400
+				date > "1938.1.1"
+			}
+						
+			modifier = {
+				factor = 2000
+				date > "1938.6.1"
+			}
+						
+			modifier = {
+				factor = 2000
+				date > "1939.1.1"
+			}
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+		
+		show_effect_as_desc = yes
+	}
+	kivotos_halo_light_infantry  = {
+
+		halo_infantry = {
+			max_organisation = 5
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = kivotos_halo_max_upgrade_tt
+			hidden_effect = {
+				set_variable = { BA_halo_infantry_cap_edit_var = 6 }
+				BA_halo_infantry_cap_edit_effect = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 100
+						
+			modifier = {
+				factor = 500
+				date > "1940.1.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1941.1.1"
+			}
+						
+			modifier = {
+				factor = 2000
+				date > "1942.1.1"
+			}
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1940
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = -2 y = 11 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+		show_effect_as_desc = yes
+	}
+	mystery_correspondence = {
+		allow = {
+			any_enemy_country = {
+				has_tech = kivotos_infantry_weapons
+			}
+        }
+		
+		path = {
+			leads_to_tech = mystery_analysis 
+			research_cost_coeff = 1
+		}
+
+		category_all_infantry = {
+			hard_attack = 0.05
+			ap_attack = 0.10
+		}
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		research_cost = 1
+		
+		start_year = 1936
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 4 y = 3 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	mystery_analysis = {
+		
+		allow = {
+			if = {
+				limit = {
+					original_tag = BLM
+					has_idea = BLM_OUTLAWS
+				}
+				NOT = { has_idea = BLM_OUTLAWS }
+			}
+        }
+
+		research_speed_factor = 0.05
+		
+		path = {
+			leads_to_tech = kivotos_artificial_halo_low 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 200
+						
+			modifier = {
+				factor = 300
+				date > "1939.1.1"
+			}
+						
+			modifier = {
+				factor = 300
+				date > "1939.6.1"
+			}
+						
+			modifier = {
+				factor = 5000
+				date > "1940.1.1"
+			}
+		}
+		
+		research_cost = 2.5
+		
+		start_year = 1939
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 2 y = 9 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	kivotos_artificial_halo_low  = {
+		enable_subunits = {
+			low_halo_infantry
+		}
+		
+		enable_equipments = {
+			kivotos_infantry_equipment_0
+		}
+		
+		ai_will_do = {
+			factor = 1000
+						
+			modifier = {
+				factor = 1000
+				date > "1945.1.1"
+			}
+						
+			modifier = {
+				factor = 1000
+				date > "1945.6.1"
+			}
+						
+			modifier = {
+				factor = 5000
+				date > "1946.1.1"
+			}
+		}
+		
+		research_cost = 5
+		
+		start_year = 1945
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 2 y = 21 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	kivotos_halo_recon  = {
+		enable_subunits = {
+			halo_recon
+		}
+		allow = {
+			has_tech = tech_recon
+			OR = {
+				has_tech = kivotos_infantry_weapons
+				has_tech = kivotos_artificial_halo_low
+			}
+        }
+		
+		
+		ai_will_do = {
+			factor = 5000
+		}
+		
+		research_cost = 3
+		
+		start_year = 1936
+
+		folder = {
+			name = mystic_engineering_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		categories = {
+			mystic_engineering
+		}
+	}
+	kivotos_artificial_halo  = {
+		allow = {
+            always = no
+        }
+		enable_subunits = {
+			halo_infantry
+		}
+	}
+	umamusume_easteregg  = {
+		allow = {
+            always = no
+        }
+		enable_subunits = {
+			umamusume
+		}
+	}
+
+	kivotos_mil_robot_production = {
+		allow = {
+            always = no
+        }
+
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.1
+	}
+
+	kivotos_mil_robot_use = {
+		allow = {
+			always = no
+		}
+
+		infantry = {
+			ap_attack = 0.10
+			soft_attack = 0.10
+		}
+	}
+
+	kivotos_artificial_halo_replica_tech  = {
+		enable_equipments = {
+			kivotos_infantry_equipment_0
+		}
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1936
+	}
+	
+}

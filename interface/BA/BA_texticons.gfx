@@ -1,0 +1,74 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_unit_attack_heli_icon_small"
+		texturefile = "gfx/texticons/unit_unit_attack_heli_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_reconnaissance_heli_icon_small"
+		texturefile = "gfx/texticons/unit_kivotos_reconnaissance_helicopter_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	
+	spriteType = {
+		name = "GFX_schedule_ticket_texticon"
+		texturefile = "gfx/texticons/schedule_ticket_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_benriya_centre_texticon"
+		texturefile = "gfx/texticons/benriya_centre_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_benriya_left_texticon"
+		texturefile = "gfx/texticons/benriya_left_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_benriya_right_texticon"
+		texturefile = "gfx/texticons/benriya_right_texticon.dds"
+		legacy_lazy_load = no
+	}
+	#긴급 시리아 침입
+	
+	spriteType = {
+		name = "GFX_syria_women_texticon"
+		texturefile = "gfx/texticons/syria_women_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_syria_intellect_texticon"
+		texturefile = "gfx/texticons/syria_intellect_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_syria_capitalist_texticon"
+		texturefile = "gfx/texticons/syria_capitalist_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_benriya_kivotos_texticon"
+		texturefile = "gfx/texticons/benriya_kivotos_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_syemmata_railway_gun_icon_small_texticon"
+		texturefile = "gfx/texticons/unit_super_heavy_railway_gun_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_syemmata_railway_gun_icon_small"
+		texturefile = "gfx/texticons/unit_super_heavy_railway_gun_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+}

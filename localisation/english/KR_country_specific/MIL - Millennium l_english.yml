@@ -24,6 +24,7 @@
  MIL_seminar: "밀레니엄 세미나"
  MIL_student_union: "밀레니엄 학생동맹"
  MIL_political_department: "학원정치국"
+ MIL_mission_militaire: "참관대표단 군사위원회"
 
  MIL_akeboshi_himari: "아케보시 히마리"
  MIL_shiraishi_utaha: "시라이시 우타하"
@@ -56,6 +57,23 @@
  MIL_otohana_sumire: "오토하나 스미레"
  MIL_nomasa_rei: "노마사 레이"
  MIL_izuimoto_eimi: "이즈미모토 에이미"
+
+### Groups ###
+ MIL_odyssey_maritime_school: "오디세이아 해양학원 지도부"
+ MIL_drone_research_club: "드론연구부"
+
+### Military Industrial Organisations ###
+ MIL_engineering_department_tank:0 "엔지니어부 전차개발실"
+ MIL_engineering_department_navy:0 "엔지니어부 해군재설계실"
+ MIL_engineering_department_air:0 "엔지니어부 항공역학연구실"
+ MIL_renovation_liberation:0 "해방된 개조"
+ MIL_unlimited_modifications_allowed:0 "전쟁위원회와 통합"
+ MIL_infantry_equipment_organization:0 "오토마톤 제조공장"
+ mio_header_automaton:0 "오토마톤 제조"
+ MIL_automaton_production:0 "생산 라인 확대"
+ MIL_priority_on_large_targets:0 "집중 포화 우선"
+ MIL_priority_on_small_targets:0 "정밀 사격 우선"
+ MIL_blackbox:0 "블랙박스"
  
 ### Leader Traits ###
  MIL_seminar_head_hos: "세미나 총재"
@@ -73,7 +91,7 @@
  MIL_radical_socialist_party: "참관대표단"
  MIL_radical_socialist_party_long: "코뮌 밀레니엄 참관대표단\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
  MIL_social_democrat_party: "베리타스"
- MIL_social_democrat_party_long: "베리타스"
+ MIL_social_democrat_party_long: "베리타스\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
  MIL_social_liberal_party: "엔지니어부"
  MIL_social_liberal_party_long: "밀레니엄 사이언스 스쿨 마이스터즈 클럽\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
  MIL_market_liberal_party: "세미나 회계국"
@@ -142,7 +160,21 @@
  MIL_calculator_wife: "냉혹한 계산의 회계"
  MIL_the_silent_archivist: "말없는 기록가"
  MIL_white_rabbit: "코드명 백토"
+ MIL_uzqueen: "캐비넷 안의 여왕"
+
+
  MIL_al_1s: "게임개발부의 용사"
+ MIL_sickly_genius: "초천재병약미소녀"
+ MIL_information_security: "정보보안의 귀재"
+
+
+
+
+
+ MIL_automaton_canary: "기갑의 작은 새"
+ MIL_health_trainer: "헬스 트레이너너"
+ MIL_clutch_hitter: "4번 타자"
+ MIL_put_trait_here: "여기에 특성 입력"
 
 ### Club Tooltip Names ###
  MIL_seminar_head_tt: "세미나 총재"
@@ -195,7 +227,7 @@
  MIL_nekozuka_hibiki_commander_desc: "§Y출생:§! §L4월 2일, 키보토스 밀레니엄 자치구 모후라§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L개추§!"
  MIL_toyomi_kotori_commander_desc: "§Y출생:§! §L12월 31일, 키보토스 밀레니엄 자치구 칸베츠§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L설명충§!"
  MIL_otohana_sumire_commander_desc: "§Y출생:§! §L8월 20일, 키보토스 D.U. 사마리움§!\n§Y학년:§! §L3학년§!\n§Y이력:§! §L세계 최고의 헬창§!"
- MIL_nomasa_rei_commander_desc: "§Y출생:§! §L3월 27일, 키보토스 밀레니엄 자치구 중앙구§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L4번 타자§!"
+ MIL_nomasa_rei_commander_desc: "§Y출생:§! §L8월 9일, 키보토스 밀레니엄 자치구 중앙구§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L새천년 노마사 선수님 사랑해해§!"
  MIL_izuimoto_eimi_commander_desc: "§Y출생:§! §L5월 1일, 키보토스 오디세이아 자치구 M.V. 하젤누스 호§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L수영복 노출증§!"
  MIL_mikamo_neru_leader_desc: "§Y출생:§! §L8월 17일, 키보토스 밀레니엄 자치구 히가시호토§!\n§Y학년:§! §L3학년§!\n§Y이력:§! §L꼬마§!"
  MIL_ichinose_asuna_commander_desc: "§Y출생:§! §L3월 24일, 키보토스 밀레니엄 자치구 중앙구§!\n§Y학년:§! §L3학년§!\n§Y이력:§! §L골댕이§!"

@@ -1,0 +1,40 @@
+COLOUR_mystic_orgianzation = { #색채 전용 장비 회사
+	name = COLOUR_mystic_orgianzation
+	icon = GFX_idea_The_Colour_idea
+
+
+	equipment_type = {
+		decagrammaton_equipment
+	}
+	research_categories = { infantry_weapons mystic_engineering }
+
+	include = generic_kivotos_infantry_equipment_organization
+
+	initial_trait = {
+		name = COLOUR_mystic_mio_decagrammaton
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.10
+		}
+
+		production_bonus = {
+			production_efficiency_cap_factor = 0.10
+			production_cost_factor = -0.10
+		}
+
+		equipment_bonus = {
+			soft_attack = 0.1
+			hard_attack = 0.1			
+			air_attack = 0.1
+			armor_value = 0.05
+			breakthrough = 0.05
+			build_cost_ic = -0.95
+		}
+	}
+
+	allowed = {
+		has_cosmetic_tag = GEI_The_Colour
+	}
+	available = {
+	}
+}
