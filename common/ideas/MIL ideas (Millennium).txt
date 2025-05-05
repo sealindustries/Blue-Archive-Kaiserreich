@@ -45,4 +45,46 @@ ideas = {
 			}
 		}
 	}
+    industrial_concern = {
+        MIL_civil_engineering_club = {
+            on_add = { log = "[GetLogRoot]: add idea civil_engineering_club" }
+			icon = GFX_idea_generic_industrial_concern_2
+			allowed = {
+				original_tag = MIL
+			}
+			traits = {
+				industrial_manufacturer
+			}
+			research_bonus = {
+				industry = 0.15
+			}
+		}
+        MIL_electronic_engineering_club = {
+            on_add = { log = "[GetLogRoot]: add idea electronic_engineering_club" }
+			icon = GFX_idea_generic_electronics_concern_3
+			allowed = {
+				original_tag = MIL
+			}
+			traits = {
+				electronics_manufacturer
+			}
+			research_bonus = {
+				electronics = 0.15
+			}
+		}
+        MIL_new_materials_development_club = {
+            on_add = { log = "[GetLogRoot]: add idea new_materials_development_club" }
+			icon = GFX_idea_generic_refining_concern_1
+			allowed = {
+				original_tag = MIL
+			}
+			traits = {
+				chemical_producer
+			}
+			research_bonus = {
+				synth_resources = 0.1
+				industry = 0.1
+			}
+		}
+    }
 }

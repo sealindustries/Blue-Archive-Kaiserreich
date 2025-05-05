@@ -47,6 +47,7 @@
  MIL_asuma_toki: "아스마 토키"
  
  MIL_kagami_chihiro: "카가미 치히로"
+
  MIL_omagari_hare: "오마가리 하레"
  MIL_otose_kotama: "오토세 코타마"
  MIL_konuri_maki: "코누리 마키"
@@ -58,9 +59,14 @@
  MIL_nomasa_rei: "노마사 레이"
  MIL_izuimoto_eimi: "이즈미모토 에이미"
 
-### Groups ###
+### Groups and Companies ###
  MIL_odyssey_maritime_school: "오디세이아 해양학원 지도부"
  MIL_drone_research_club: "드론연구부"
+ MIL_civil_engineering_club: "토목공학부"
+ MIL_electronic_engineering_club: "전자공학부"
+ MIL_new_materials_development_club: "신소재개발클럽"
+ MIL_laboratory: "밀레니엄 타워"
+ MIL_automaton_manufacturer: "오토마톤 제조국"
 
 ### Military Industrial Organisations ###
  MIL_engineering_department_tank:0 "엔지니어부 전차개발실"
@@ -68,7 +74,7 @@
  MIL_engineering_department_air:0 "엔지니어부 항공역학연구실"
  MIL_renovation_liberation:0 "해방된 개조"
  MIL_unlimited_modifications_allowed:0 "전쟁위원회와 통합"
- MIL_infantry_equipment_organization:0 "오토마톤 제조공장"
+ MIL_infantry_equipment_organization:0 "밀레니엄 조병창"
  mio_header_automaton:0 "오토마톤 제조"
  MIL_automaton_production:0 "생산 라인 확대"
  MIL_priority_on_large_targets:0 "집중 포화 우선"
