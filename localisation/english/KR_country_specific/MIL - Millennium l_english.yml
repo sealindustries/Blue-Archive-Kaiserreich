@@ -1,5 +1,6 @@
 ﻿l_english:
-### Introduction ###]
+### Introduction ###
+ MIL_focus_tree: "밀레니엄 사이언스 스쿨쿨 중점계통도"
  MIL_country_intro_background: "GFX_MIL_intro"
  MIL_country_intro_header: "합리와 이성의 학원"
  MIL_country_intro_content: "PLACEHOLDER TEXT"
@@ -61,6 +62,7 @@
 
 ### Groups and Companies ###
  MIL_odyssey_maritime_school: "오디세이아 해양학원 지도부"
+ IL_odyssey_maritime_school_desc: "오디세이아 해양학원 지도부\n§g이전부터 밀레니엄과 가까운 관계를 맺었던 오디세이아 해양학원의 학원함들 역시 대전이에 휘말려 함께 이 세계로 전이했습니다.\n\n오디세이아가 실질적으로 해양무역을 독점하던 키보토스에서는 수상 군대의 역할이나 필요성이 딱히 도드라지지 않았지만, 이 세계는 그 중요성이 확실히 다른 것 같습니다.\n\n밀레니엄과 함께 전이한 오디세이아의 학원함들은 이제 실질적으로 밀레니엄의 수중 하에 있으며, '해군'으로서의 기능을 당분간 수행할 것으로 보입니다..§!\n"
  MIL_drone_research_club: "드론연구부"
  MIL_civil_engineering_club: "토목공학부"
  MIL_electronic_engineering_club: "전자공학부"
@@ -69,8 +71,8 @@
  MIL_automaton_manufacturer: "오토마톤 제조국"
 
 ### Military Industrial Organisations ###
- MIL_engineering_department_tank:0 "엔지니어부 전차개발실"
- MIL_engineering_department_navy:0 "엔지니어부 해군재설계실"
+ MIL_engineering_department_tank:0 "엔지니어부"
+ MIL_engineering_department_navy:0 "엔지니어부 선박재설계실"
  MIL_engineering_department_air:0 "엔지니어부 항공역학연구실"
  MIL_renovation_liberation:0 "해방된 개조"
  MIL_unlimited_modifications_allowed:0 "전쟁위원회와 통합"
@@ -82,8 +84,8 @@
  MIL_blackbox:0 "블랙박스"
  
 ### Leader Traits ###
- MIL_seminar_head_hos: "세미나 총재"
- MIL_veritas_chair__hos: "Himari_placeholder"
+ MIL_big_sister_hos: "빅 시스터"
+ MIL_sickly_genius_hos: "초천재병약미소녀"
  MIL_chief_meister_hos: "Utaha_placeholder"
  MIL_cnc_chair_hos: "Neru_placeholder"
  MIL_calculator_wife_hos: "냉혹한 계산의 회계"
@@ -91,21 +93,22 @@
 
 ### Parties ###
  MIL_totalist_party: "참관대표단"
- MIL_totalist_party_long: "코뮌 밀레니엄 참관대표단\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
+ MIL_totalist_party_long: "코뮌 밀레니엄 참관대표단\n§g1935년 11월의 대전이 사건 이후, 코뮌 정부와 밀레니엄 사이언스 스쿨 학생회의 극적인 협상 타결의 일환으로 조직된 지방자치단체 겸 감찰기구입니다.\n\n참관대표단의 역할은 밀레니엄 사이언스 스쿨 내 혁명적 사상을 전파 및 교육이며, 또한 밀레니엄이 가지고 있었던 반동적 사상을 억제하는 역할 역시 합니다.\n\n다만, 자유로운 연구 환경에 오랫동안 익숙했던 밀레니엄의 학생들의 참관대표단의 존재에 대한 불안은 점점 커져만 가는 것 같습니다.§!\n"
  MIL_syndicalist_party: "참관대표단"
- MIL_syndicalist_party_long: "코뮌 밀레니엄 참관대표단\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
+ MIL_syndicalist_party_long: "코뮌 밀레니엄 참관대표단\n§g1935년 11월의 대전이 사건 이후, 코뮌 정부와 밀레니엄 사이언스 스쿨 학생회의 극적인 협상 타결의 일환으로 조직된 지방자치단체 겸 감찰기구입니다.\n\n참관대표단의 역할은 밀레니엄 사이언스 스쿨 내 혁명적 사상을 전파 및 교육이며, 또한 밀레니엄이 가지고 있었던 반동적 사상을 억제하는 역할 역시 합니다.\n\n다만, 자유로운 연구 환경에 오랫동안 익숙했던 밀레니엄의 학생들의 참관대표단의 존재에 대한 불안은 점점 커져만 가는 것 같습니다.§!\n"
  MIL_radical_socialist_party: "참관대표단"
- MIL_radical_socialist_party_long: "코뮌 밀레니엄 참관대표단\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
+ MIL_radical_socialist_party_long: "코뮌 밀레니엄 참관대표단\n§g1935년 11월의 대전이 사건 이후, 코뮌 정부와 밀레니엄 사이언스 스쿨 학생회의 극적인 협상 타결의 일환으로 조직된 지방자치단체 겸 감찰기구입니다.\n\n참관대표단의 역할은 밀레니엄 사이언스 스쿨 내 혁명적 사상을 전파 및 교육이며, 또한 밀레니엄이 가지고 있었던 반동적 사상을 억제하는 역할 역시 합니다.\n\n다만, 자유로운 연구 환경에 오랫동안 익숙했던 밀레니엄의 학생들의 참관대표단의 존재에 대한 불안은 점점 커져만 가는 것 같습니다.§!\n"
  MIL_social_democrat_party: "베리타스"
- MIL_social_democrat_party_long: "베리타스\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
+ MIL_social_democrat_party_long: "베리타스\n§g정보의 자유와 철저한 보안의식을 기치로 삼은 비인가 해커 동아리 베리타스는 아케보시 히마리와 카가미 치히로의 사상이 다소 공여된 동아리입니다.\n\n이 덕에, 부장 아케보시 히마리와 정반대의, 정보의 통제를 중요시하는 츠카츠키 리오와는 해묵은 악감정을 가지고 있습니다.\n\n대전이 이후, 세미나의 일원들이 수습 때문에 바빠지며 본 업무인 동아리 예산 편성이 중지되자, 베리타스는 엔지니어부를 필두로 한 다른 동아리들과 함께 §l학생동맹§!이란 단체를 차려, 세미나의 역할을 자행했습니다.\n\n세미나의 업무가 정상화된 현재, 학생동맹과 세미나의 갈등은 더욱 더 거세질 것으로 전망됩니다.§!\n"
  MIL_social_liberal_party: "엔지니어부"
- MIL_social_liberal_party_long: "밀레니엄 사이언스 스쿨 마이스터즈 클럽\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
+ MIL_social_liberal_party_long: "밀레니엄 사이언스 스쿨 마이스터즈 클럽\n§g기계적인 천재성을 지닌 §l마이스터§!들의 모임인 엔지니어부는 사실 정치적으로는 그다지 욕심이 있는 동아리가 아닙니다. 그 부장 시라이시 우타하를 필두로 대부분은 신기하고 괴상한 발명품을 발명하는 일이 더 바쁩니다.\n\n그러나, 엔지니어부가 대전이 이후 형성된 세미나를 견제하는 주된 교내 세력인 학생동맹의 큰 주축인 것 역시 사실입니다.n\n현재로서, 엔지니어부는 이 세계의 기술을 연구하며, 새로운 세계를 밀레니엄이 어떻게 맏닥드릴지 결정하는 중대한 길에 서 있습니다다§!\n"
  MIL_market_liberal_party: "세미나 회계국"
- MIL_market_liberal_party_long: "밀레니엄 사이언스 스쿨 학생회 회계국\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
+ MIL_market_liberal_party_long: "밀레니엄 사이언스 스쿨 학생회 회계국\n§g타고난 수학적 천재성을 일찍이 인정받은 하야세 유우카가 이끄는 회계국은 밀레니엄을 넘어서 전 키보토스에서 가장 깨끗한 회게를 자부할 수 있습니다. 요새도시 에리두의 일은 잊으십시오.\n\n대전이 이후 .\n\n회계국은 세미나의 일부로서 총재와 계속 협동을 하고 있기는 하나, §!\n"
  MIL_social_conservative_party: "세미나 서기국"
- MIL_social_conservative_party_long: "밀레니엄 사이언스 스쿨 학생회 서기국\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
+ MIL_social_conservative_party_long: "밀레니엄 사이언스 스쿨 학생회 서기국\n§g완전기억능력을 가진 우시오 노아가 이끄는 서기국은 일어나는 모든 일을 기억하고 기록하며, 대전이 당시 사실상 세미나에서 유일하게 정상적으로 영업한 부처입니다.
+ \n\n저쩌구\n\n이러쿵§!\n"
  MIL_authoritarian_democrat_party: "클리닝 앤 클리어링"
- MIL_authoritarian_democrat_party_long: "밀레니엄 사이언스 스쿨 미화부\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
+ MIL_authoritarian_democrat_party_long: "밀레니엄 사이언스 스쿨 미화부\n§g밖에서 봤을 땐 메이드들로 이루어진 평범한 환경미화 동아리지만, 클리닝 앤 클리어링, 약칭 C&C는 \n\n저쩌구\n\n이러쿵§!\n"
  MIL_paternal_autocrat_party: "세미나"
  MIL_paternal_autocrat_party_long: "밀레니엄 사이언스 스쿨 학생회\n§g어쩌구\n\n저쩌구\n\n이러쿵§!\n"
  MIL_national_populist_party: "유사과학부"
@@ -114,6 +117,7 @@
 ### National Spirits ###
  KR_student_conscription_idea: ""
  MIL_great_transition: "대전이의 기억"
+ MIL_great_transition_desc: "이 세계의 시간대 기준, 1935년 11월 있었던 대전이는 우리 학생들과 주민들의 기억에 아직도 선명히 남아 있습니다. "
 
 ### Advisors ###
  MIL_seminar_head: ""
@@ -163,27 +167,26 @@
  MIL_pseudo_member: ""
 
 ### Advisor Traits ###
+ MIL_big_sister_advisor: "빅 시스터"
  MIL_calculator_wife: "냉혹한 계산의 회계"
  MIL_the_silent_archivist: "말없는 기록가"
  MIL_white_rabbit: "코드명 백토"
  MIL_uzqueen: "캐비넷 안의 여왕"
-
-
+ MIL_chief_story_writer: "시나리오 라이터"
+ MIL_chief_illustrator: "일러스트레이터"
  MIL_al_1s: "게임개발부의 용사"
  MIL_sickly_genius: "초천재병약미소녀"
  MIL_information_security: "정보보안의 귀재"
-
-
-
-
-
+ MIL_substance_abusing_genius: "중독자 천재"
+ MIL_hear_all_evil: "도청의 귀재"
+ MIL_passionate_artist: "열정적 예술가"
  MIL_automaton_canary: "기갑의 작은 새"
- MIL_health_trainer: "헬스 트레이너너"
+ MIL_health_trainer: "헬스 트레이너"
  MIL_clutch_hitter: "4번 타자"
  MIL_put_trait_here: "여기에 특성 입력"
 
 ### Club Tooltip Names ###
- MIL_seminar_head_tt: "세미나 총재"
+ MIL_seminar_head_tt: "세미나 §P총재§!"
  MIL_seminar_treasurer_tt: "세미나 §m회계§!"
  MIL_seminar_secretary_tt: "세미나 §c서기§!"
  MIL_seminar_security_tt: "§p니하하하.§!"
@@ -209,11 +212,11 @@
  MIL_cnc_member_akane_tt: "§LC&C§! 콜사인 03"
  MIL_cnc_member_toki_tt: "§LC&C§! 콜사인 04"
  MIL_pseudo_chair_tt: "§n유사과학부§! 부장"
- MIL_pseudo_member_tt: "§n유사과학부§! 부장"
+ MIL_pseudo_member_tt: "§n유사과학부§! 부원"
 
 ### Character Descriptions ###
  MIL_political_department_leader_desc: "어쩌면 다행히도, 어쩌면 마음이 아프게도, 우리 학생들 중 일부는 전이된 이 세계와 그 풍습에 생각보다 빨리 적응할 수 있었습니다. 그 사상까지도요.\n\n학원정치국은 그 논조에 힘입어 탄생한 단체로, 참관대표단의 영도 하에 사회주의와 생디칼리즘에 관심을 가진 학생들이 세운 기구입니다."
- MIL_seminar_leader_desc: "무소불위의 권력을 가진 밀레니엄의 학생회장은 그 휘하의 학생회가 없으면 아무 일도 할 수 없을 것입니다. 밀레니엄의 학생회 기구, '세미나'는 총재 아래 회계국, 서기국, 보안국으로 구성되어 있습니다.\n\n밀레니엄 세미나는 학원이 존재하기 전부터 천년 난제를 연구하기 위해 연구자들이 모여 세운 기구로, 현재도 물밑에서 그 해결을 위하여 노력하고 있습니다."
+ MIL_seminar_leader_desc: "무소불위의 권력을 가진 밀레니엄의 학생회장은 그 휘하의 학생회가 없으면 아무 일도 할 수 없을 것입니다. 밀레니엄의 학생회 기구, '세미나'는 총재 아래 회계국, 서기국, 보안국 등의 부서들로 구성되어 있습니다.\n\n밀레니엄 세미나는 학원이 존재하기 전부터 천년 난제를 연구하기 위해 연구자들이 모여 세운 기구로, 현재도 물밑에서 그 해결을 위하여 노력하고 있습니다."
  MIL_student_union_leader_desc: "밀레니엄 학생동맹은 대전이 이후 세미나 주요 인원들의 일시적인 이탈로 인하여 그 행정적 공백을 메우기 위해 만들어진 동아리들의 연합체입니다.\n\n학원동맹은 엔지니어부가 주축이 되긴 하지만, 아케보시 히마리의 입김이 쎄어 세미나와는 대립각을 유지하고 있습니다."
 
  MIL_rio_tsukatsuki_leader_desc: "§Y출생:§! §L6월 6일, 키보토스 밀레니엄 자치구 중앙구§!\n§Y학년:§! §L3학년§!\n§Y이력:§! §L아방가르드한 사람§!"
@@ -233,7 +236,7 @@
  MIL_nekozuka_hibiki_commander_desc: "§Y출생:§! §L4월 2일, 키보토스 밀레니엄 자치구 모후라§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L개추§!"
  MIL_toyomi_kotori_commander_desc: "§Y출생:§! §L12월 31일, 키보토스 밀레니엄 자치구 칸베츠§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L설명충§!"
  MIL_otohana_sumire_commander_desc: "§Y출생:§! §L8월 20일, 키보토스 D.U. 사마리움§!\n§Y학년:§! §L3학년§!\n§Y이력:§! §L세계 최고의 헬창§!"
- MIL_nomasa_rei_commander_desc: "§Y출생:§! §L8월 9일, 키보토스 밀레니엄 자치구 중앙구§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L새천년 노마사 선수님 사랑해해§!"
+ MIL_nomasa_rei_commander_desc: "§Y출생:§! §L8월 9일, 키보토스 밀레니엄 자치구 중앙구§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L새천년 노마사 선수님 사랑해§!"
  MIL_izuimoto_eimi_commander_desc: "§Y출생:§! §L5월 1일, 키보토스 오디세이아 자치구 M.V. 하젤누스 호§!\n§Y학년:§! §L1학년§!\n§Y이력:§! §L수영복 노출증§!"
  MIL_mikamo_neru_leader_desc: "§Y출생:§! §L8월 17일, 키보토스 밀레니엄 자치구 히가시호토§!\n§Y학년:§! §L3학년§!\n§Y이력:§! §L꼬마§!"
  MIL_ichinose_asuna_commander_desc: "§Y출생:§! §L3월 24일, 키보토스 밀레니엄 자치구 중앙구§!\n§Y학년:§! §L3학년§!\n§Y이력:§! §L골댕이§!"

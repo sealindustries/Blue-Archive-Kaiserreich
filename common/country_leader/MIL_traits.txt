@@ -1,9 +1,10 @@
 leader_traits = {
 	### Millennium HOS Traits ###
-	MIL_seminar_head_hos = {  #세미나 총재
+	MIL_big_sister_hos = {  #빅 시스터
 		random = no
 		political_power_factor = 0.15
 		stability_factor = 0.10
+		custom_modifier_tooltip = MIL_seminar_head_tt
 	}
 
 	MIL_sickly_genius_hos = { #초천재병약미소녀
@@ -11,10 +12,6 @@ leader_traits = {
 		political_power_factor = -0.05
 		research_speed_factor = 0.10
 		drift_defence_factor = -0.20
-	}
-
-	MIL_veritas_chair__hos = {  #베리타스 부장
-		random = no
 		custom_modifier_tooltip = MIL_veritas_chair_tt
 	}
 
@@ -45,6 +42,12 @@ leader_traits = {
 	}
 
 	### Millennium Advisor Traits ###
+	MIL_big_sister_advisor = {  #빅 시스터
+		random = no
+		political_power_factor = 0.15
+		stability_factor = 0.10
+		custom_modifier_tooltip = MIL_seminar_head_tt
+	}
 
 	MIL_calculator_wife = { #냉혹한 계산의 회계
 		random = no
@@ -87,16 +90,20 @@ leader_traits = {
 		}
 	}
 
-	MIL_momoi_trait = { #베리타스 부원
-		random = no
+	MIL_chief_story_writer = {
 		sprite = 13
-		research_speed_factor = 0.01
+		random = no
+		research_speed_factor = 0.1
+		production_factory_max_efficiency_factor = 0.05
+		political_power_factor = -0.05
 	}
 
-	MIL_midori_trait = { #베리타스 부원
+	MIL_chief_illustrator = {
+		sprite = 14
 		random = no
-		sprite = 13
-		research_speed_factor = 0.01
+		special_project_speed_factor = 0.15
+		research_speed_factor = 0.05
+		stability_factor = -0.05
 	}
 
 	MIL_al_1s = { #게임개발부의 용사
@@ -105,7 +112,6 @@ leader_traits = {
 		war_support_factor = 0.20
 		army_attack_factor = 0.05
 		political_power_factor = 0.07
-		stability_factor = -0.20
 	}
 
 	MIL_sickly_genius = { #초천재병약미소녀
@@ -123,25 +129,29 @@ leader_traits = {
 		agency_upgrade_time = -0.15
 	}
 
-	MIL_hare_trait = { #베리타스 부원
+	MIL_substance_abusing_genius = { #중독자 천재
 		random = no
 		sprite = 13
+		research_speed_factor = 0.05
+		stability_factor = -0.10
+		fuel_gain_factor = 0.1
+		max_fuel_factor = 0.15
+	}
+
+	MIL_hear_all_evil = { #도청의 귀재
+		random = no
+		sprite = 15
+		decryption_power = 15
 		research_speed_factor = 0.01
 		drift_defence_factor = -0.05
 	}
 
-	MIL_kotama_trait = { #베리타스 부원
+	MIL_passionate_artist = { #열정적 예술가
 		random = no
 		sprite = 13
+		political_power_factor = 0.05
+		party_popularity_stability_factor = 0.05
 		research_speed_factor = 0.01
-		drift_defence_factor = -0.05
-	}
-
-	MIL_maki_trait = { #베리타스 부원
-		random = no
-		sprite = 13
-		research_speed_factor = 0.01
-		drift_defence_factor = -0.05
 	}
 
 	MIL_automaton_canary = { #기갑의 작은 새

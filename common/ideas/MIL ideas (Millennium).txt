@@ -48,7 +48,7 @@ ideas = {
     industrial_concern = {
         MIL_civil_engineering_club = {
             on_add = { log = "[GetLogRoot]: add idea civil_engineering_club" }
-			icon = GFX_idea_generic_industrial_concern_2
+			picture = generic_industrial_concern_2
 			allowed = {
 				original_tag = MIL
 			}
@@ -61,7 +61,7 @@ ideas = {
 		}
         MIL_electronic_engineering_club = {
             on_add = { log = "[GetLogRoot]: add idea electronic_engineering_club" }
-			icon = GFX_idea_generic_electronics_concern_3
+			picture = generic_electronics_concern_3
 			allowed = {
 				original_tag = MIL
 			}
@@ -74,7 +74,7 @@ ideas = {
 		}
         MIL_new_materials_development_club = {
             on_add = { log = "[GetLogRoot]: add idea new_materials_development_club" }
-			icon = GFX_idea_generic_refining_concern_1
+			picture = generic_refining_concern_1
 			allowed = {
 				original_tag = MIL
 			}

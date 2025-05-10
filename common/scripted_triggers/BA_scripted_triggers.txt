@@ -1,0 +1,5 @@
+Kivotos_tag = {
+	OR = {
+		original_tag = MIL
+	}
+}

@@ -1,4 +1,5 @@
 
+
 characters = {
 
 ### CHARACTERS ORGANIZED IN ORDER OF INTERNAL DOCUMENT OR NAMUWIKI ###
@@ -34,7 +35,7 @@ characters = {
 		country_leader = {
 			desc = MIL_rio_tsukatsuki_leader_desc
 			ideology = paternal_autocrat_subtype
-			traits = { MIL_seminar_head_hos MIL_seminar_head }
+			traits = { MIL_big_sister_hos MIL_seminar_head }
 		}
 	}
 	
@@ -185,7 +186,7 @@ characters = {
 			slot = political_advisor
 			idea_token = MIL_saiba_momoi_advisor
 			desc = MIL_saiba_momoi_commander_desc
-			traits = { MIL_gamedev_member_momoi }
+			traits = { MIL_chief_story_writer MIL_gamedev_member_momoi }
 			cost = 100
 		}
 	}
@@ -212,7 +213,7 @@ characters = {
 			slot = political_advisor
 			idea_token = MIL_saiba_midori_advisor
 			desc = MIL_saiba_midori_commander_desc
-			traits = { MIL_gamedev_member_midori }
+			traits = { MIL_chief_illustrator MIL_gamedev_member_midori }
 			cost = 100
 		}
 	}
@@ -302,7 +303,7 @@ characters = {
 			slot = political_advisor
 			idea_token = MIL_otose_kotama_advisor
 			desc = MIL_otose_kotama_commander_desc
-			traits = { MIL_veritas_member_kotama }
+			traits = { MIL_hear_all_evil MIL_veritas_member_kotama }
 			cost = 100
 		}
 		advisor = {
@@ -327,7 +328,7 @@ characters = {
 			slot = political_advisor
 			idea_token = MIL_omagari_hare_advisor
 			desc = MIL_omagari_hare_commander_desc
-			traits = { MIL_veritas_member_hare }
+			traits = { MIL_substance_abusing_genius MIL_veritas_member_hare }
 			cost = 100
 		}
 	}
@@ -354,7 +355,7 @@ characters = {
 			slot = political_advisor
 			idea_token = MIL_konuri_maki_advisor
 			desc = MIL_konuri_maki_commander_desc
-			traits = { MIL_veritas_member_maki }
+			traits = { MIL_passionate_artist MIL_veritas_member_maki }
 			cost = 100
 		}
 	}
@@ -744,6 +745,7 @@ characters = {
 		advisor = {
 			slot = theorist
 			idea_token = MIL_mission_militaire_theorist
+			desc = MIL_mission_militaire_desc
 			ledger = military
 			traits = { KR_council_of_theorists }
 			cost = 100
@@ -760,6 +762,7 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = MIL_odyssey_maritime_school
+			desc = MIL_odyssey_maritime_school_desc
 			ledger = military
 			traits = { KR_navy_chief_navy_council }
 			cost = 100
@@ -776,6 +779,7 @@ characters = {
 		advisor = {
 			slot = air_chief
 			idea_token = MIL_drone_research_club
+			desc = MIL_drone_research_club_desc
 			ledger = military
 			traits = { KR_air_chief_air_council }
 			cost = 100
