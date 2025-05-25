@@ -552,6 +552,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MIL_mikamo_neru_advisor
+			desc = MIL_mikamo_neru_leader_desc
 			available = {
 				is_country_leader = no
 			}
@@ -589,6 +590,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MIL_ichinose_asuna_advisor
+			desc = MIL_ichinose_asuna_commander_desc
 			traits = { KR_army_chief_drill_2 MIL_cnc_member_asuna }
 		}
 	}
@@ -614,6 +616,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MIL_kakudate_karin_advisor
+			desc = MIL_kakudate_karin_commander_desc
 			traits = { KR_army_chief_organisational_2 MIL_cnc_member_karin }
 		}
 	}
@@ -639,6 +642,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MIL_murokasa_akane_advisor
+			desc = MIL_murokasa_akane_commander_desc
 			traits = { KR_army_chief_morale_2  MIL_cnc_member_akane }
 		}
 	}
@@ -664,6 +668,7 @@ characters = {
 		advisor = {
 			slot = army_chief
 			idea_token = MIL_asuma_toki_advisor
+			desc = MIL_asuma_toki_commander_desc
 			traits = { KR_army_chief_manoeuvre_2 MIL_cnc_member_toki }
 		}
 	}
@@ -746,7 +751,6 @@ characters = {
 			slot = theorist
 			idea_token = MIL_mission_militaire_theorist
 			desc = MIL_mission_militaire_desc
-			ledger = military
 			traits = { KR_council_of_theorists }
 			cost = 100
 		}
@@ -762,9 +766,8 @@ characters = {
 		advisor = {
 			slot = navy_chief
 			idea_token = MIL_odyssey_maritime_school
-			desc = MIL_odyssey_maritime_school_desc
-			ledger = military
 			traits = { KR_navy_chief_navy_council }
+			desc = MIL_odyssey_maritime_school_desc
 			cost = 100
 		}
 	}
@@ -778,10 +781,8 @@ characters = {
 		}
 		advisor = {
 			slot = air_chief
-			idea_token = MIL_drone_research_club
-			desc = MIL_drone_research_club_desc
-			ledger = military
 			traits = { KR_air_chief_air_council }
+			desc = MIL_drone_research_club_desc
 			cost = 100
 		}
 	}
