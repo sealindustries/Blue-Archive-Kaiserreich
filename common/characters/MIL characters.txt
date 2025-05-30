@@ -113,15 +113,18 @@ characters = {
 	MIL_kurosaki_koyuki = {
 		name = MIL_kurosaki_koyuki
 		portraits = {
-			civilian = {
+			army = {
 				small = GFX_portrait_MIL_kurosaki_koyuki_civilian_small
 				large = GFX_portrait_MIL_kurosaki_koyuki_civilian_large
+			}
+			civilian = {
+				large = GFX_portrait_MIL_kurosaki_koyuki_scientist_large
 			}
 		}
 		gender = female
 		corps_commander = {
 			desc = MIL_kurosaki_koyuki_commander_desc
-			traits = { reckless brilliant_strategist }
+			traits = { trait_reckless brilliant_strategist }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 2
@@ -134,6 +137,13 @@ characters = {
 			desc = MIL_kurosaki_koyuki_commander_desc
 			traits = { MIL_white_rabbit MIL_seminar_security }
 			cost = 100
+		}
+		scientist = {
+			desc = MIL_kurosaki_koyuki_commander_desc
+			traits = { scientist_trait_genius }
+			skills = {
+				specialization_naval = 2
+			}
 		}
 	}
 	
@@ -230,7 +240,7 @@ characters = {
 		corps_commander = {
 			desc = MIL_tendou_aris_commander_desc
 			traits = {  }
-			skill = 4
+			skill = 3
             attack_skill = 4
             defense_skill = 4
             planning_skill = 3
@@ -312,6 +322,13 @@ characters = {
 			desc = MIL_otose_kotama_commander_desc
 			traits = { KR_MHC_army_radio_intelligence_2 MIL_veritas_member_kotama }
 			cost = 100
+		}
+		scientist = {
+			desc = MIL_otose_kotama_commander_desc
+			traits = { scientist_trait_electronics_specialist }
+			skills = {
+				specialization_air = 2
+			}
 		}
 	}
 
@@ -409,6 +426,13 @@ characters = {
 			traits = { KR_MHC_artillery_1 MIL_meister_hibiki }
 			cost = 100
 		}
+		scientist = {
+			desc = MIL_nekozuka_hibiki_commander_desc
+			traits = { scientist_trait_artillery_specialist scientist_trait_gifted_engineer }
+			skills = {
+				specialization_land = 2
+			}
+		}
 	}
 	
 	MIL_toyomi_kotori = {
@@ -437,13 +461,12 @@ characters = {
 			traits = { MIL_automaton_canary MIL_meister_kotori }
 			cost = 100
 		}
-		advisor = {
-			slot = theorist
-			idea_token = MIL_toyomi_kotori_advisor
-			ledger = army
+		scientist = {
 			desc = MIL_toyomi_kotori_commander_desc
-			traits = { KR_armour_theorist MIL_meister_kotori }
-			cost = 100
+			traits = { scientist_trait_armored_specialist scientist_trait_gifted_engineer }
+			skills = {
+				specialization_land = 2
+			}
 		}
 	}
 	
@@ -459,7 +482,7 @@ characters = {
 		corps_commander = {
 			desc = MIL_otohana_sumire_commander_desc
 			traits = {  }
-			skill=3
+			skill=4
 			attack_skill=2
 			defense_skill=2
 			planning_skill=2

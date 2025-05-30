@@ -45,6 +45,20 @@ ideas = {
 			}
 		}
 	}
+		MIL_great_transition = {
+			on_add = { log = "[GetLogRoot]: add idea MIL_great_transition" }
+			picture = generic_crippled_industry
+			allowed = { always = no }
+			modifier = {
+				research_speed_factor = -0.3
+				production_speed_buildings_factor = -0.35
+				global_building_slots_factor = -0.2
+				consumer_goods_factor = 0.5
+				conscription_factor = -0.15
+				stability_factor = -0.1
+			}
+		}
+	}
     industrial_concern = {
         MIL_civil_engineering_club = {
             on_add = { log = "[GetLogRoot]: add idea civil_engineering_club" }
