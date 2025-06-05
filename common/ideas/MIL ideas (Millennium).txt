@@ -52,6 +52,14 @@ ideas = {
 				political_power_factor = 0.1
 			}
 		}
+		MIL_science_school = {
+			on_add = { log = "[GetLogRoot]: add idea MIL_seminar" }
+			picture = GFX_idea_Science_School
+			allowed = { always = no }
+			modifier = {
+				research_speed_factor = 0.3
+			}
+		}
 	}
     industrial_concern = {
         MIL_civil_engineering_club = {

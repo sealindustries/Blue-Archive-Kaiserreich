@@ -238,4 +238,5 @@ add_ideas = {
 	KR_student_conscription_idea
 	MIL_great_transition
 	MIL_seminar
+	MIL_science_school
 }
