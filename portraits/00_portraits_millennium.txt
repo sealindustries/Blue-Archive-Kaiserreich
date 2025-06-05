@@ -120,5 +120,15 @@ MIL = {
 			}
 		}
 	}
+	scientist = {
+		female = {
+			"GFX_Portrait_Millennium_Generic_new_1_scientist"
+			"GFX_Portrait_Millennium_Generic_new_2_scientist"
+			"GFX_Portrait_Millennium_Generic_new_3_scientist"
+			"GFX_Portrait_Millennium_Generic_new_4_scientist"
+			"GFX_Portrait_Millennium_Generic_new_5_scientist"
+			"GFX_Portrait_Millennium_Generic_new_6_scientist"
+		}
+	}
 }
 
